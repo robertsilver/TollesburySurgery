@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UploadedDocs>
+	<Document ID="0" WhichPartOfWebSite="PatientParticipation">
+		<DocumentVisible>true</DocumentVisible>
+		<DocumentFileType>Word</DocumentFileType>
+		<DocumentName>Tollesbury Surgery Patient Participation Group Sign Up Form</DocumentName>
+		<AssociatedFileName>Tollesbury Surgery Patient Participation Group Sign Up Form.doc</AssociatedFileName>
+	</Document>
+	<Document ID="1" WhichPartOfWebSite="PatientParticipation">
+		<DocumentVisible>true</DocumentVisible>
+		<DocumentFileType>Word</DocumentFileType>
+		<DocumentName>Tollesbury Patient Participation Group</DocumentName>
+		<AssociatedFileName>Tollesbury Patient Participation Group.doc</AssociatedFileName>
+	</Document>
+	<Document ID="2" WhichPartOfWebSite="PatientParticipation">
+		<DocumentVisible>true</DocumentVisible>
+		<DocumentFileType>Excel</DocumentFileType>
+		<DocumentName>GP Survey Collation Mar 2012</DocumentName>
+		<AssociatedFileName>GP Survey Collation Mar 2012.xlsx</AssociatedFileName>
+	</Document>
+	<Document ID="3" WhichPartOfWebSite="PatientParticipation">
+		<DocumentVisible>true</DocumentVisible>
+		<DocumentFileType>Word</DocumentFileType>
+		<DocumentName>23rd April 2012 Minutes</DocumentName>
+		<AssociatedFileName>April 2012 minutes.docx</AssociatedFileName>
+	</Document>
+	<Document ID="4" WhichPartOfWebSite="PatientParticipation">
+		<DocumentVisible>true</DocumentVisible>
+		<DocumentFileType>Word</DocumentFileType>
+		<DocumentName>July 2012 Minutes</DocumentName>
+		<AssociatedFileName>July 2012 minutes.docx</AssociatedFileName>
+	</Document>
+	<Document ID="5" WhichPartOfWebSite="PatientParticipation">
+		<DocumentVisible>true</DocumentVisible>
+		<DocumentFileType>Word</DocumentFileType>
+		<DocumentName>October 2012 Minutes</DocumentName>
+		<AssociatedFileName>October 2012 Minutes.doc</AssociatedFileName>
+	</Document>
+	<Document ID="6" WhichPartOfWebSite="PatientParticipation">
+		<DocumentVisible>true</DocumentVisible>
+		<DocumentFileType>Excel</DocumentFileType>
+		<DocumentName>Doctors survey Mar 2013</DocumentName>
+		<AssociatedFileName>Doctors_survey_Mar_2013.xlsx</AssociatedFileName>
+	</Document>
+</UploadedDocs>

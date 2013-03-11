@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0637035C-2C26-4E89-8098-EA1172BAF6EB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TollesburySurgery</RootNamespace>
+    <AssemblyName>TollesburySurgery</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\Upload.aspx" />
+    <Content Include="Content\Images\confidentiality.jpg" />
+    <Content Include="Content\Images\content-bg.jpg" />
+    <Content Include="Content\Images\content.jpg" />
+    <Content Include="Content\Images\Excel_Image.png" />
+    <Content Include="Content\Images\footer.jpg" />
+    <Content Include="Content\Images\header.gif" />
+    <Content Include="Content\Images\large-loader-strip.gif" />
+    <Content Include="Content\Images\nav-bg.jpg" />
+    <Content Include="Content\Images\navlist-left.jpg" />
+    <Content Include="Content\Images\nhs_choices.gif" />
+    <Content Include="Content\Images\pals.jpg" />
+    <Content Include="Content\Images\PDF_Image.jpg" />
+    <Content Include="Content\Images\Word_Image.jpg" />
+    <Content Include="Content\ts.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Emails\EmailText.txt" />
+    <Content Include="Files.aspx" />
+    <Content Include="HTML\About.htm" />
+    <Content Include="HTML\About_HowToFindUs.htm" />
+    <Content Include="HTML\About_MeetTheTeam.htm" />
+    <Content Include="HTML\About_PALS.htm" />
+    <Content Include="HTML\About_PatientRepGrp.htm" />
+    <Content Include="HTML\About_PracticeArea.htm" />
+    <Content Include="HTML\About_PracticePolicies.htm" />
+    <Content Include="HTML\CancelAppointment.htm" />
+    <Content Include="HTML\Health_Childrens.htm" />
+    <Content Include="HTML\Services_CarPark.htm" />
+    <Content Include="HTML\GeneralInformation.htm" />
+    <Content Include="HTML\Services_ChaperonePolicy.htm" />
+    <Content Include="HTML\Clinics.htm" />
+    <Content Include="HTML\Complaints.htm" />
+    <Content Include="HTML\ContactUs.htm" />
+    <Content Include="HTML\Dispensing.htm" />
+    <Content Include="HTML\Enquiries.htm" />
+    <Content Include="HTML\FAQ.htm" />
+    <Content Include="HTML\FAQ_Benefits.htm" />
+    <Content Include="HTML\FAQ_Flu.htm" />
+    <Content Include="HTML\FAQ_HealthyLiving.htm" />
+    <Content Include="HTML\FAQ_RegisterWithUs.htm" />
+    <Content Include="HTML\FAQ_TreatingYourself.htm" />
+    <Content Include="HTML\Home.htm" />
+    <Content Include="HTML\PatientForms.htm" />
+    <Content Include="HTML\Services_HomeVisits.htm" />
+    <Content Include="HTML\OutOfHours.htm" />
+    <Content Include="HTML\Services.htm" />
+    <Content Include="HTML\Services_MinorSurgery.htm" />
+    <Content Include="HTML\Services_NonNHS.htm" />
+    <Content Include="HTML\Services_Pregnancy.htm" />
+    <Content Include="HTML\Services_PreHospital.htm" />
+    <Content Include="HTML\Services_Results.htm" />
+    <Content Include="HTML\Travel_Health.htm" />
+    <Content Include="WebMethods.aspx" />
+    <None Include="XML\ErrorLog.xml" />
+    <None Include="XML\Menus.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Scripts\ts.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <None Include="XML\UploadedDocs.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Upload.aspx.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Upload.aspx.designer.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Files.aspx.cs">
+      <DependentUpon>Files.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Files.aspx.designer.cs">
+      <DependentUpon>Files.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Generic\Generic.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebMethods.aspx.cs">
+      <DependentUpon>WebMethods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebMethods.aspx.designer.cs">
+      <DependentUpon>WebMethods.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="FileUploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TSDomain\TSDomain.csproj">
+      <Project>{8785514A-6C4C-459E-9011-D054A2DF28EB}</Project>
+      <Name>TSDomain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49327</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

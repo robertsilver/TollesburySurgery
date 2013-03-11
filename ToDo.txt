@@ -1,0 +1,8 @@
+put menu on the left with UL and LI.
+with on click, need to recreate the menu from xml.
+need to annotate within the xml, if the item is a header.  Then in the HTML, put a data-header=yes within the UL.  But how do you stop the sub items from showing, if they're not supposed to?
+will have to annotate the child LIs with data-child, or class="child", when creating them.
+with on click header item, need to collapse the current open header item, and open the clicked header item.
+then need to display content in the main section.
+Have to put data-id inside each LI to identify which LI has been clicked
+using the ONCLICK, you'll have to use Ajax to discover the 

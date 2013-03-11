@@ -1,0 +1,15 @@
+C:\Users\Public\Documents\DevCode\TS\TollesburySurgery\TSDomain\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Public\Documents\DevCode\TS\TollesburySurgery\TSDomain\bin\Debug\TSDomain.dll
+C:\Users\Public\Documents\DevCode\TS\TollesburySurgery\TSDomain\bin\Debug\TSDomain.pdb
+C:\Users\Public\Documents\DevCode\TS\TollesburySurgery\TSDomain\obj\Debug\TSDomain.dll
+C:\Users\Public\Documents\DevCode\TS\TollesburySurgery\TSDomain\obj\Debug\TSDomain.pdb
+C:\TS\TollesburySurgery\TSDomain\bin\Debug\TSDomain.dll
+C:\TS\TollesburySurgery\TSDomain\bin\Debug\TSDomain.pdb
+C:\TS\TollesburySurgery\TSDomain\obj\Debug\ResolveAssemblyReference.cache
+C:\TS\TollesburySurgery\TSDomain\obj\Debug\TSDomain.dll
+C:\TS\TollesburySurgery\TSDomain\obj\Debug\TSDomain.pdb
+C:\Users\Robert.Silver\Documents\DevCode\TS\TollesburySurgery\TSDomain\bin\Debug\TSDomain.dll
+C:\Users\Robert.Silver\Documents\DevCode\TS\TollesburySurgery\TSDomain\bin\Debug\TSDomain.pdb
+C:\Users\Robert.Silver\Documents\DevCode\TS\TollesburySurgery\TSDomain\obj\Debug\TSDomain.dll
+C:\Users\Robert.Silver\Documents\DevCode\TS\TollesburySurgery\TSDomain\obj\Debug\TSDomain.pdb
+C:\Users\Robert.Silver\Documents\DevCode\TS\TollesburySurgery\TSDomain\obj\Debug\TSDomain.csprojResolveAssemblyReference.cache

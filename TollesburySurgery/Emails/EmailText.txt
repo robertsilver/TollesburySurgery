@@ -1,0 +1,5 @@
+﻿Hello, <br/><br/>You have been sent this email because a forgotten password request has been made on the Tollesbury Surgery web site.  If you did not make the request, then please contact Robert Silver by clicking <a href="mailto:robsilveruk@gmail.net?Subject=Erroneous forgotten password request">here</a>, stating that you did not make the request.<br/><br/>
+Your password has been reset to: {0}<br/><br/>
+Please click on <a href="www.tollesburysurgery.co.uk/Account/ChangePassword.aspx?u={1}">this link</a>, to enter the new password, and to choose another password.<br/><br/>
+Thank you.<br/><br/>
+The Tollesbury Surgery web site.

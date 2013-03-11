@@ -1,0 +1,177 @@
+﻿/* File Created: January 23, 2012 */
+.menu-header
+{
+}
+
+.page
+{
+    width: 850px;
+    margin: 0 auto;
+}
+
+.left-menu
+{
+    list-style-type: none;
+    padding-bottom: 1px;
+    margin-top: 10px;
+    float: left;
+    width: 20%;
+    margin-right: 5px;
+}
+
+.left-menu ul
+{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.left-menu li
+{
+    list-style-type: none;
+    background: url('../Content/Images/navlist-left.jpg') #DDDCE5 no-repeat top left;
+    color: black;
+    display: block;
+    font-size: 0.8em;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.left-menu .menu-child
+{
+    cursor: pointer;
+    background-color: white;
+    background-image: none;
+    color: black;
+    font-weight: normal;
+    border: solid 1px #DDDCE5;
+}
+
+.centercol
+{
+    width: 76%;
+    background-color: #F9FAFE;
+    margin-top: 10px;
+    font-size: 1em;
+    float: left;
+    border: 1px solid lightgray;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.centercol table
+{
+}
+.centercol th
+{
+    width: 100%;
+    padding: 10px;
+    background-color: #dbdbdb;
+    color: #666;
+    font-weight: bold;
+}
+
+.centercol tr
+{
+    width: 100%;
+}
+
+.centercol td
+{
+    padding: 10px;
+    background-color: #ededed;
+    color: #666;
+}
+
+.centercol td a
+{
+    color: #666;
+    text-decoration: none;
+}
+
+.centercol td a:hover
+{
+    text-decoration: underline;
+}
+
+.border-between-header-and-content
+{
+    color: black;
+    margin-bottom: -10px;
+}
+
+.header
+{
+    background: url('../Content/Images/header.gif');
+    height: 208px;
+}
+
+.title h1
+{
+    color: Black;
+    font-size: 2em;
+    font-style: italic;
+    padding-top: 100px;
+}
+
+.main-content
+{
+    width: 100%;
+}
+
+.lists ul, li
+{
+    margin: 0;
+    padding: 0;
+}
+
+.list-details
+{
+    float: left;
+    list-style: none;
+}
+
+.staff
+{
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.contact-us-by-post, .contact-us-by-telephone, .contact-us-by-fax
+{
+    list-style: none;
+}
+
+.telephone-number
+{
+    font-size: 1em;
+    text-align: center;
+}
+
+.error-red-border
+{
+    border: 2px red solid;
+    width: 320px;
+    background-color: #FDE2FF;
+}
+
+/* MICRO CLEARFIX (http://nicolasgallagher.com/micro-clearfix-hack/) */
+.cf
+{
+    zoom: 1;
+}
+
+.cf:before, .cf:after
+{
+    content: "";
+    display: table;
+}
+
+.cf:after
+{
+    clear: both;
+}
