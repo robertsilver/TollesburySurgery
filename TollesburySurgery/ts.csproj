@@ -82,6 +82,7 @@
     <Content Include="HTML\About_PracticePolicies.htm" />
     <Content Include="HTML\CancelAppointment.htm" />
     <Content Include="HTML\Health_Childrens.htm" />
+    <Content Include="HTML\OnlineAppointments.htm" />
     <Content Include="HTML\Services_CarPark.htm" />
     <Content Include="HTML\GeneralInformation.htm" />
     <Content Include="HTML\Services_ChaperonePolicy.htm" />

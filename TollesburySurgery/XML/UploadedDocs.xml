@@ -48,4 +48,16 @@
     <DocumentName>11 March 2013 Minutes</DocumentName>
     <AssociatedFileName>PPG_Minutes_11_Mar_2013.docx</AssociatedFileName>
   </Document>
+  <Document ID="8" WhichPartOfWebSite="PatientForms">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Medical Certificate Request Form</DocumentName>
+    <AssociatedFileName>Medical Certificate Request Form.docx</AssociatedFileName>
+  </Document>
+  <Document ID="9" WhichPartOfWebSite="PatientForms">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Repeat Prescription Request</DocumentName>
+    <AssociatedFileName>Tollesbury Surgery Repeat Prescription Request.docx</AssociatedFileName>
+  </Document>
 </UploadedDocs>

@@ -4,7 +4,7 @@
 		<Menu ID="1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Home</Menu>
 	</MenuItems>
 	<MenuItems>
-		<Menu ID="2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Surgery Hours &amp; Appointments</Menu>
+		<Menu ID="2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Appointments</Menu>
 	</MenuItems>
 	<MenuItems>
 		<Menu ID="2.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">General Information</Menu>

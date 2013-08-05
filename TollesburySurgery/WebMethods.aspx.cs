@@ -86,6 +86,10 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("Home");
                     title = websiteName + "Home";
                     break;
+                case "2":
+                    fileName += AppSettings.AppSetting("OnlineAppointments");
+                    title = websiteName + "Online Appointments";
+                    break;
                 case "2.1":
                     fileName += AppSettings.AppSetting("GeneralInformation");
                     title = websiteName + "General Information";
