@@ -98,6 +98,10 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("ChildrensHealth");
                     title = websiteName + "Children's Health";
                     break;
+                case "2.3.1":
+                    fileName += AppSettings.AppSetting("WalkInCentres");
+                    title = websiteName + "Walk-in Centres";
+                    break;
                 case "3":
                     fileName += AppSettings.AppSetting("Services");
                     title = websiteName + "Services";

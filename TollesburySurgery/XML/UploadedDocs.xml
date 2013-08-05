@@ -42,4 +42,10 @@
 		<DocumentName>Doctors survey Mar 2013</DocumentName>
 		<AssociatedFileName>Doctors_survey_Mar_2013.xlsx</AssociatedFileName>
 	</Document>
+  <Document ID="7" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>11 March 2013 Minutes</DocumentName>
+    <AssociatedFileName>PPG_Minutes_11_Mar_2013.docx</AssociatedFileName>
+  </Document>
 </UploadedDocs>

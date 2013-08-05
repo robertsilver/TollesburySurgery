@@ -15,6 +15,9 @@
 	<MenuItems>
 		<Menu ID="2.3" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Health</Menu>
 	</MenuItems>
+  <MenuItems>
+    <Menu ID="2.3.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Walk in centres</Menu>
+  </MenuItems>
 	<MenuItems>
 		<Menu ID="3" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Services</Menu>
 		<Menu ID="36" ParentId="3" Header="No" DefaultMenu="No" ShowMenu="Yes">Chaperone Policy</Menu>

@@ -75,6 +75,15 @@
     font-weight: bold;
 }
 
+.centercol th.walk-in-centre
+{
+    width: 20%;
+    padding: 10px;
+    background-color: #dbdbdb;
+    color: #666;
+    font-weight: bold;
+}
+
 .centercol tr
 {
     width: 100%;

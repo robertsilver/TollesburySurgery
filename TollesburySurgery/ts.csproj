@@ -107,6 +107,7 @@
     <Content Include="HTML\Services_PreHospital.htm" />
     <Content Include="HTML\Services_Results.htm" />
     <Content Include="HTML\Travel_Health.htm" />
+    <Content Include="HTML\WalkInCentres.htm" />
     <Content Include="WebMethods.aspx" />
     <None Include="XML\ErrorLog.xml" />
     <None Include="XML\Menus.xml">

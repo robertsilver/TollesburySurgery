@@ -18,7 +18,7 @@
         <ItemTemplate>
             <tr>
                 <td>
-                    <a style="width: 10px;" href='/FileUploads/<%# Eval("AssociatedFileName") %>'>Download Minutes - <%# Eval("DocumentName") %></a>
+                    <a style="width: 10px;" href='/FileUploads/<%# Eval("AssociatedFileName") %>'>Download - <%# Eval("DocumentName") %></a>
                 </td>
             </tr>
         </ItemTemplate>
