@@ -60,4 +60,22 @@
     <DocumentName>Repeat Prescription Request</DocumentName>
     <AssociatedFileName>Tollesbury Surgery Repeat Prescription Request.docx</AssociatedFileName>
   </Document>
+  <Document ID="10" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Patient Participation Meeting 1st July 2013</DocumentName>
+    <AssociatedFileName>PPG MEETING 1 7 13.docx</AssociatedFileName>
+  </Document>
+  <Document ID="11" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Practice Agenda</DocumentName>
+    <AssociatedFileName>PRACTICE AGENDA 01.07.2013.docx</AssociatedFileName>
+  </Document>
+  <Document ID="12" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>You said, our answers</DocumentName>
+    <AssociatedFileName>YOU SAID our answers 28.08.2013.docx</AssociatedFileName>
+  </Document>
 </UploadedDocs>
