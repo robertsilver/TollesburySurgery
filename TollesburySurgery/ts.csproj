@@ -80,6 +80,7 @@
     <Content Include="HTML\About_PatientRepGrp.htm" />
     <Content Include="HTML\About_PracticeArea.htm" />
     <Content Include="HTML\About_PracticePolicies.htm" />
+    <Content Include="HTML\Answers.htm" />
     <Content Include="HTML\CancelAppointment.htm" />
     <Content Include="HTML\Health_Childrens.htm" />
     <Content Include="HTML\OnlineAppointments.htm" />
