@@ -91,4 +91,7 @@
 	<MenuItems>
 		<Menu ID="15" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes" Link="/Files.aspx?q=3,title=Tollesbury Surgery | Patient Participation Forum">Patient Participation Forum</Menu>
 	</MenuItems>
+  <MenuItems>
+    <Menu ID="16" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Answers</Menu>
+  </MenuItems>
 </Menus>
