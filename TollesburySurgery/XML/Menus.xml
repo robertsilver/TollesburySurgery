@@ -6,6 +6,12 @@
 	<MenuItems>
 		<Menu ID="2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Appointments</Menu>
 	</MenuItems>
+  <MenuItems>
+    <Menu ID="2.0.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Cancellations</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.0.2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Prescriptions</Menu>
+  </MenuItems>
 	<MenuItems>
 		<Menu ID="2.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">General Information</Menu>
 	</MenuItems>
