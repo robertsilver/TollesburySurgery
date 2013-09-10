@@ -85,7 +85,9 @@
     <Content Include="HTML\Health_Childrens.htm" />
     <Content Include="HTML\Online_Appointments.htm" />
     <Content Include="HTML\Online_Cancellations.htm" />
+    <Content Include="HTML\Online_Book.htm" />
     <Content Include="HTML\Online_Prescriptions.htm" />
+    <Content Include="HTML\Online_Registration.htm" />
     <Content Include="HTML\Services_CarPark.htm" />
     <Content Include="HTML\GeneralInformation.htm" />
     <Content Include="HTML\Services_ChaperonePolicy.htm" />

@@ -4,13 +4,16 @@
 		<Menu ID="1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Home</Menu>
 	</MenuItems>
 	<MenuItems>
-		<Menu ID="2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Appointments</Menu>
+		<Menu ID="2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Book an appointment</Menu>
 	</MenuItems>
   <MenuItems>
-    <Menu ID="2.0.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Cancellations</Menu>
+    <Menu ID="2.0.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Online Cancellations</Menu>
   </MenuItems>
   <MenuItems>
-    <Menu ID="2.0.2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Prescriptions</Menu>
+    <Menu ID="2.0.2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Online Prescriptions</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.0.3" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Registration</Menu>
   </MenuItems>
 	<MenuItems>
 		<Menu ID="2.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">General Information</Menu>
