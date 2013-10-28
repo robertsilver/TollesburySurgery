@@ -78,4 +78,16 @@
     <DocumentName>You said, our answers</DocumentName>
     <AssociatedFileName>YOU SAID our answers 28.08.2013.docx</AssociatedFileName>
   </Document>
+  <Document ID="13" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Patient Participation Meeting Agenda for 7th October 2013</DocumentName>
+    <AssociatedFileName>Tollesbury Surgery agenda 07.10.2013.docx</AssociatedFileName>
+  </Document>
+  <Document ID="14" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Patient Participation Meeting Minutes for 7th October 2013</DocumentName>
+    <AssociatedFileName>PPG Minutes 07 10 13.docx</AssociatedFileName>
+  </Document>
 </UploadedDocs>
