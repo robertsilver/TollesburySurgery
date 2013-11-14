@@ -90,4 +90,10 @@
     <DocumentName>Patient Participation Meeting Minutes for 7th October 2013</DocumentName>
     <AssociatedFileName>PPG Minutes 07 10 13.docx</AssociatedFileName>
   </Document>
+  <Document ID="15" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Patient Participation Meeting Minutes for 12th November 2013</DocumentName>
+    <AssociatedFileName>PPG Minutes 12.11.2013.docx</AssociatedFileName>
+  </Document>
 </UploadedDocs>
