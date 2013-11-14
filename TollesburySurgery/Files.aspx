@@ -4,16 +4,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h1>
-        Documents</h1>
+        <asp:Literal ID="header" runat="server"></asp:Literal></h1>
+        <asp:Literal ID="extraText" runat="server"></asp:Literal>
     <asp:Label ID="lblError" runat="server" ForeColor="Red" Font-Bold="true" />
     <asp:Repeater ID="lstFiles" runat="server">
         <HeaderTemplate>
             <table>
-                <tr>
-                    <th>
-                        Minutes of Meetings
-                    </th>
-                </tr>
         </HeaderTemplate>
         <ItemTemplate>
             <tr>

@@ -17,12 +17,15 @@ namespace TollesburySurgery
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            DisplayExtraText();
+
             Page.Title = Request.QueryString["title"];
             string fileType = GetFileType();
             if (string.IsNullOrEmpty(fileType))
             {
                 lblError.Text = "There are no files to view";
                 lblError.Visible = true;
+                header.Visible = false;
                 return;
             }
 
@@ -43,15 +46,35 @@ namespace TollesburySurgery
                 lstFiles.DataSource = displayData;
                 lstFiles.DataBind();
                 lblError.Visible = false;
+                header.Visible = true;
+                header.Text = GetHeaderTitle();
             }
             else
             {
                 lblError.Text = "There are no files to view";
                 lblError.Visible = true;
+                header.Visible = false;
             }
         }
 
         #region Private methods
+        private void DisplayExtraText()
+        {
+            switch (Request.QueryString["q"])
+            {
+                case "1":
+                    extraText.Visible = false;
+                    break;
+                case "2":
+                    extraText.Visible = false;
+                    break;
+                case "3":
+                    extraText.Visible = true;
+                    extraText.Text = "<strong>Patient Participation Group</strong>: If you are interested in joining this group please contact the Practice Manager Rohita Rajapakse for details.";
+                    break;
+            }
+        }
+
         private string GetFileType()
         {
             string fileType = string.Empty;
@@ -72,36 +95,25 @@ namespace TollesburySurgery
             return fileType;
         }
 
+        private string GetHeaderTitle()
+        {
+            string headerTitle = string.Empty;
+
+            switch (Request.QueryString["q"])
+            {
+                case "1":
+                    headerTitle = "Patient Forms";
+                    break;
+                case "2":
+                    headerTitle = "Questionnaires";
+                    break;
+                case "3":
+                    headerTitle = "Patient Participation Minutes";
+                    break;
+            }
+
+            return headerTitle;
+        }
         #endregion Private methods
-
-        #region Public methods
-        public string GetImage(string fileType)
-        {
-            if (fileType == "PDF")
-                return "/Content/Images/PDF_Image.jpg";
-
-            if (fileType == "Word")
-                return "/Content/Images/Word_Image.jpg";
-
-            if (fileType == "Excel")
-                return "/Content/Images/Excel_Image.png";
-
-            return string.Empty;
-        }
-
-        public string GetImageName(string fileType)
-        {
-            if (fileType == "PDF")
-                return "PDF image";
-
-            if (fileType == "Word")
-                return "Word image";
-
-            if (fileType == "Excel")
-                return "Excel image";
-
-            return string.Empty;
-        }
-        #endregion Public methods
     }
 }
