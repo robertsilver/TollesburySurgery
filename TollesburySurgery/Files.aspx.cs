@@ -70,7 +70,7 @@ namespace TollesburySurgery
                     break;
                 case "3":
                     extraText.Visible = true;
-                    extraText.Text = "<strong>Patient Participation Group</strong>: If you are interested in joining this group please contact the Practice Manager Rohita Rajapakse for details.<br /><br />";
+                    extraText.Text = "<div style='margin-top: 10px; margin-bottom: 30px;'><p style='font-weight: bold; text-align: center;'>Patient Participation Group</p>We have a thriving Patient Group who prefers to meet face to face every 3months. We meet to update the group on any planned changes and seek feedback on how we are doing and how we could improve our services.<br /><br />If you would like to become a member of this group or have your say please contact the surgery.<br /><br />Please contact the surgery by telephone on 01621 869204 or download & complete the joining form from <a href='http://www.tollesburysurgery.co.uk/FileUploads/Tollesbury%20Surgery%20Patient%20Participation%20Group%20Sign%20Up%20Form.doc' target='_blank'>our website</a>, and hand it in to reception.<br /><br />We welcome any suggestions or comments you may have about the services offered to help maintain the highest standard of care possible and meeting your needs. We also carry out annual patient surveys in addition to the nationally run patient surveys by the NHS.</div>";
                     break;
             }
         }
