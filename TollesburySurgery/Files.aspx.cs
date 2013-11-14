@@ -70,7 +70,7 @@ namespace TollesburySurgery
                     break;
                 case "3":
                     extraText.Visible = true;
-                    extraText.Text = "<strong>Patient Participation Group</strong>: If you are interested in joining this group please contact the Practice Manager Rohita Rajapakse for details.";
+                    extraText.Text = "<strong>Patient Participation Group</strong>: If you are interested in joining this group please contact the Practice Manager Rohita Rajapakse for details.<br /><br />";
                     break;
             }
         }
