@@ -68,6 +68,7 @@
     <Content Include="Content\Images\nhs_choices.gif" />
     <Content Include="Content\Images\pals.jpg" />
     <Content Include="Content\Images\PDF_Image.jpg" />
+    <Content Include="Content\Images\PPG-Meeting.jpg" />
     <Content Include="Content\Images\Word_Image.jpg" />
     <Content Include="Content\ts.css" />
     <Content Include="Default.aspx" />
