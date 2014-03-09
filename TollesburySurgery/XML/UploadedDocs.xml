@@ -1,47 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UploadedDocs>
-	<Document ID="0" WhichPartOfWebSite="PatientParticipation">
-		<DocumentVisible>true</DocumentVisible>
-		<DocumentFileType>Word</DocumentFileType>
-		<DocumentName>Tollesbury Surgery Patient Participation Group Sign Up Form</DocumentName>
-		<AssociatedFileName>Tollesbury Surgery Patient Participation Group Sign Up Form.doc</AssociatedFileName>
-	</Document>
-	<Document ID="1" WhichPartOfWebSite="PatientParticipation">
-		<DocumentVisible>true</DocumentVisible>
-		<DocumentFileType>Word</DocumentFileType>
-		<DocumentName>Tollesbury Patient Participation Group</DocumentName>
-		<AssociatedFileName>Tollesbury Patient Participation Group.doc</AssociatedFileName>
-	</Document>
-	<Document ID="2" WhichPartOfWebSite="PatientParticipation">
-		<DocumentVisible>true</DocumentVisible>
-		<DocumentFileType>Excel</DocumentFileType>
-		<DocumentName>GP Survey Collation Mar 2012</DocumentName>
-		<AssociatedFileName>GP Survey Collation Mar 2012.xlsx</AssociatedFileName>
-	</Document>
-	<Document ID="3" WhichPartOfWebSite="PatientParticipation">
-		<DocumentVisible>true</DocumentVisible>
-		<DocumentFileType>Word</DocumentFileType>
-		<DocumentName>23rd April 2012 Minutes</DocumentName>
-		<AssociatedFileName>April 2012 minutes.docx</AssociatedFileName>
-	</Document>
-	<Document ID="4" WhichPartOfWebSite="PatientParticipation">
-		<DocumentVisible>true</DocumentVisible>
-		<DocumentFileType>Word</DocumentFileType>
-		<DocumentName>July 2012 Minutes</DocumentName>
-		<AssociatedFileName>July 2012 minutes.docx</AssociatedFileName>
-	</Document>
-	<Document ID="5" WhichPartOfWebSite="PatientParticipation">
-		<DocumentVisible>true</DocumentVisible>
-		<DocumentFileType>Word</DocumentFileType>
-		<DocumentName>October 2012 Minutes</DocumentName>
-		<AssociatedFileName>October 2012 Minutes.doc</AssociatedFileName>
-	</Document>
-	<Document ID="6" WhichPartOfWebSite="PatientParticipation">
-		<DocumentVisible>true</DocumentVisible>
-		<DocumentFileType>Excel</DocumentFileType>
-		<DocumentName>Doctors survey Mar 2013</DocumentName>
-		<AssociatedFileName>Doctors_survey_Mar_2013.xlsx</AssociatedFileName>
-	</Document>
+  <Document ID="0" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Tollesbury Surgery Patient Participation Group Sign Up Form</DocumentName>
+    <AssociatedFileName>Tollesbury Surgery Patient Participation Group Sign Up Form.doc</AssociatedFileName>
+  </Document>
+  <Document ID="1" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Tollesbury Patient Participation Group</DocumentName>
+    <AssociatedFileName>Tollesbury Patient Participation Group.doc</AssociatedFileName>
+  </Document>
+  <Document ID="2" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Excel</DocumentFileType>
+    <DocumentName>GP Survey Collation Mar 2012</DocumentName>
+    <AssociatedFileName>GP Survey Collation Mar 2012.xlsx</AssociatedFileName>
+  </Document>
+  <Document ID="3" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>23rd April 2012 Minutes</DocumentName>
+    <AssociatedFileName>April 2012 minutes.docx</AssociatedFileName>
+  </Document>
+  <Document ID="4" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>July 2012 Minutes</DocumentName>
+    <AssociatedFileName>July 2012 minutes.docx</AssociatedFileName>
+  </Document>
+  <Document ID="5" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>October 2012 Minutes</DocumentName>
+    <AssociatedFileName>October 2012 Minutes.doc</AssociatedFileName>
+  </Document>
+  <Document ID="6" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Excel</DocumentFileType>
+    <DocumentName>Doctors survey Mar 2013</DocumentName>
+    <AssociatedFileName>Doctors_survey_Mar_2013.xlsx</AssociatedFileName>
+  </Document>
   <Document ID="7" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
@@ -51,7 +51,7 @@
   <Document ID="8" WhichPartOfWebSite="PatientForms">
     <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
-    <DocumentName>Medical Certificate Request Form</DocumentName>
+    <DocumentName>Medical Certificate Request Form (For the first 7 days of absence from work due to ill health or injury you can complete a self-certificate.  If you are absent from work due to ill health for more than 7 days please complete a request for a medical certificate. Please allow 48 hrs for your request to be processed.)</DocumentName>
     <AssociatedFileName>Medical Certificate Request Form.docx</AssociatedFileName>
   </Document>
   <Document ID="9" WhichPartOfWebSite="PatientForms">

@@ -116,6 +116,12 @@
     <Content Include="HTML\Travel_Health.htm" />
     <Content Include="HTML\WalkInCentres.htm" />
     <Content Include="WebMethods.aspx" />
+    <Content Include="Config\app_dev.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\app_live.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="XML\ErrorLog.xml" />
     <None Include="XML\Menus.xml">
       <SubType>Designer</SubType>
