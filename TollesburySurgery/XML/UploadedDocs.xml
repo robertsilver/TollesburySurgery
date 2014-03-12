@@ -74,6 +74,18 @@
   </Document>
   <Document ID="17" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Excel</DocumentFileType>
+    <DocumentName>PPG Survey Results 2014</DocumentName>
+    <AssociatedFileName>PPG Survey Results 2014.xlsx</AssociatedFileName>
+  </Document>
+  <Document ID="18" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>PPG Survey Comments 2014</DocumentName>
+    <AssociatedFileName>PPG Survey Comments 2014.docx</AssociatedFileName>
+  </Document>
+  <Document ID="19" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
     <DocumentName>YOU SAID our answers 3rd March 2014</DocumentName>
     <AssociatedFileName>You said 2014.docx</AssociatedFileName>
