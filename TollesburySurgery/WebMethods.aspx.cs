@@ -134,6 +134,10 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("Dispensing");
                     title = websiteName + "Dispensing";
                     break;
+                case "6.1":
+                    fileName += AppSettings.AppSetting("RepeatPrescriptions");
+                    title = websiteName + "Repeat Prescriptions";
+                    break;
                 case "9":
                     fileName += AppSettings.AppSetting("OutOfHours");
                     title = websiteName + "Out of Hours";
