@@ -59,6 +59,9 @@
 	<MenuItems>
 		<Menu ID="6" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Dispensing</Menu>
 	</MenuItems>
+  <MenuItems>
+    <Menu ID="6.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Repeat Prescriptions</Menu>
+  </MenuItems>
 	<MenuItems>
 		<Menu ID="7" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Frequently Asked Questions</Menu>
 	</MenuItems>
