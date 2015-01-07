@@ -6,6 +6,12 @@
     <DocumentName>Tollesbury Patient Participation Group</DocumentName>
     <AssociatedFileName>Tollesbury Patient Participation Group.doc</AssociatedFileName>
   </Document>
+  <Document ID="20" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Patient Participation Meeting 30th Nov 2014</DocumentName>
+    <AssociatedFileName>PPG MEETING 3RD NOVEMBER 2014.docx</AssociatedFileName>
+  </Document>
   <Document ID="6" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Excel</DocumentFileType>
