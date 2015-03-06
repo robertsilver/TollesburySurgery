@@ -83,6 +83,7 @@
     <Content Include="HTML\About_PracticePolicies.htm" />
     <Content Include="HTML\Answers.htm" />
     <Content Include="HTML\CancelAppointment.htm" />
+    <Content Include="HTML\FriendsAndFamilyTest.htm" />
     <Content Include="HTML\Health_Childrens.htm" />
     <Content Include="HTML\Online_Appointments.htm" />
     <Content Include="HTML\Online_Cancellations.htm" />

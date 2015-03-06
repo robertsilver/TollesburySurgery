@@ -100,6 +100,9 @@
 	<MenuItems>
 		<Menu ID="14" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No" Link="/Files.aspx?q=2,title=Tollesbury Surgery | Questionnaires">Questionnaires</Menu>
 	</MenuItems>
+  <MenuItems>
+    <Menu ID="140" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Friends and Family Test</Menu>
+  </MenuItems>
 	<MenuItems>
 		<Menu ID="15" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes" Link="/Files.aspx?q=3,title=Tollesbury Surgery | Patient Participation Forum">Patient Participation Forum</Menu>
 	</MenuItems>
