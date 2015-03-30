@@ -50,8 +50,8 @@
   </Document>
   <Document ID="27" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
-    <DocumentFileType>Excel</DocumentFileType>
-    <DocumentName>Surgery Survey 2014</DocumentName>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Surgery Survey Questions 2014</DocumentName>
     <AssociatedFileName>Tollesbury Surgery Survey 2014 (online form).docx</AssociatedFileName>
   </Document>  
   <Document ID="6" WhichPartOfWebSite="PatientParticipation">
