@@ -30,6 +30,30 @@
     <DocumentName>Patient Participation Meeting 3rd Nov 2014</DocumentName>
     <AssociatedFileName>PPG MEETING 3RD NOVEMBER 2014.docx</AssociatedFileName>
   </Document>
+  <Document ID="24" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Patient Participation Meeting 1st Sept 2014</DocumentName>
+    <AssociatedFileName>PPG Minutes 1 9 14.doc</AssociatedFileName>
+  </Document>
+  <Document ID="25" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Patient Participation Meeting 2nd June 2014</DocumentName>
+    <AssociatedFileName>PPG Minutes 2.6.14.doc</AssociatedFileName>
+  </Document>
+  <Document ID="26" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Excel</DocumentFileType>
+    <DocumentName>GP Survery Collation Results 2014</DocumentName>
+    <AssociatedFileName>gp survey collation 1.xlsx</AssociatedFileName>
+  </Document>
+  <Document ID="27" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Excel</DocumentFileType>
+    <DocumentName>Surgery Survey 2014</DocumentName>
+    <AssociatedFileName>Tollesbury Surgery Survey 2014 (online form).docx</AssociatedFileName>
+  </Document>  
   <Document ID="6" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>false</DocumentVisible>
     <DocumentFileType>Excel</DocumentFileType>
@@ -84,17 +108,17 @@
     <DocumentName>Patient Participation Meeting Minutes for 7th October 2013</DocumentName>
     <AssociatedFileName>PPG Minutes 07 10 13.docx</AssociatedFileName>
   </Document>
-  <Document ID="15" WhichPartOfWebSite="PatientParticipation">
-    <DocumentVisible>true</DocumentVisible>
-    <DocumentFileType>Word</DocumentFileType>
-    <DocumentName>Patient Participation Meeting Minutes for 6th January 2014</DocumentName>
-    <AssociatedFileName>PPG Minutes 06 01 2014.docx</AssociatedFileName>
-  </Document>
   <Document ID="16" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
     <DocumentName>Patient Participation Meeting Minutes for 3rd March 2014</DocumentName>
     <AssociatedFileName>PPG Minutes 03-Mar-2014.doc</AssociatedFileName>
+  </Document>
+  <Document ID="15" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>Patient Participation Meeting Minutes for 6th January 2014</DocumentName>
+    <AssociatedFileName>PPG Minutes 06 01 2014.docx</AssociatedFileName>
   </Document>
   <Document ID="17" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
@@ -111,7 +135,7 @@
   <Document ID="19" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
-    <DocumentName>YOU SAID our answers 3rd March 2014</DocumentName>
+    <DocumentName>YOU SAID our action 3rd March 2014</DocumentName>
     <AssociatedFileName>You said 2014.docx</AssociatedFileName>
   </Document>
 </UploadedDocs>
