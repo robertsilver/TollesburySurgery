@@ -27,7 +27,7 @@
   <Document ID="20" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
-    <DocumentName>Patient Participation Meeting 30th Nov 2014</DocumentName>
+    <DocumentName>Patient Participation Meeting 3rd Nov 2014</DocumentName>
     <AssociatedFileName>PPG MEETING 3RD NOVEMBER 2014.docx</AssociatedFileName>
   </Document>
   <Document ID="6" WhichPartOfWebSite="PatientParticipation">
@@ -49,7 +49,7 @@
     <AssociatedFileName>Medical Certificate Request Form.docx</AssociatedFileName>
   </Document>
   <Document ID="9" WhichPartOfWebSite="PatientForms">
-    <DocumentVisible>false</DocumentVisible>
+    <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
     <DocumentName>Repeat Prescription Request</DocumentName>
     <AssociatedFileName>Tollesbury Surgery Repeat Prescription Request.docx</AssociatedFileName>
@@ -85,31 +85,31 @@
     <AssociatedFileName>PPG Minutes 07 10 13.docx</AssociatedFileName>
   </Document>
   <Document ID="15" WhichPartOfWebSite="PatientParticipation">
-    <DocumentVisible>false</DocumentVisible>
+    <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
     <DocumentName>Patient Participation Meeting Minutes for 6th January 2014</DocumentName>
     <AssociatedFileName>PPG Minutes 06 01 2014.docx</AssociatedFileName>
   </Document>
   <Document ID="16" WhichPartOfWebSite="PatientParticipation">
-    <DocumentVisible>false</DocumentVisible>
+    <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
     <DocumentName>Patient Participation Meeting Minutes for 3rd March 2014</DocumentName>
     <AssociatedFileName>PPG Minutes 03-Mar-2014.doc</AssociatedFileName>
   </Document>
   <Document ID="17" WhichPartOfWebSite="PatientParticipation">
-    <DocumentVisible>false</DocumentVisible>
+    <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Excel</DocumentFileType>
     <DocumentName>PPG Survey Results 2014</DocumentName>
     <AssociatedFileName>PPG Survey Results 2014.xlsx</AssociatedFileName>
   </Document>
   <Document ID="18" WhichPartOfWebSite="PatientParticipation">
-    <DocumentVisible>false</DocumentVisible>
+    <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
     <DocumentName>PPG Survey Comments 2014</DocumentName>
     <AssociatedFileName>PPG Survey Comments 2014.docx</AssociatedFileName>
   </Document>
   <Document ID="19" WhichPartOfWebSite="PatientParticipation">
-    <DocumentVisible>false</DocumentVisible>
+    <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
     <DocumentName>YOU SAID our answers 3rd March 2014</DocumentName>
     <AssociatedFileName>You said 2014.docx</AssociatedFileName>
