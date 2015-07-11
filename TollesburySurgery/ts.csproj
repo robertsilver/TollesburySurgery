@@ -95,6 +95,7 @@
     <Content Include="HTML\CancelAppointment.htm" />
     <Content Include="HTML\FriendsAndFamilyTest.htm" />
     <Content Include="HTML\Health_Childrens.htm" />
+    <Content Include="HTML\Home_CQC.htm" />
     <Content Include="HTML\Online_Appointments.htm" />
     <Content Include="HTML\Online_Cancellations.htm" />
     <Content Include="HTML\Online_Book.htm" />
@@ -154,7 +155,9 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <None Include="XML\UploadedDocs.xml" />
+    <None Include="XML\UploadedDocs.xml">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
