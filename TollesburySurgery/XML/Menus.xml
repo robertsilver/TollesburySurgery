@@ -2,7 +2,9 @@
 <Menus>
   <MenuItems>
     <Menu ID="1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Home</Menu>
-   <Menu ID="1.1" ParentId="1" Header="No" DefaultMenu="No" ShowMenu="Yes">CQC</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="1.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Care Quality Commission</Menu>
   </MenuItems>
   <MenuItems>
     <Menu ID="2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Book an appointment</Menu>
