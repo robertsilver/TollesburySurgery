@@ -126,8 +126,12 @@
     <Content Include="HTML\Services_Pregnancy.htm" />
     <Content Include="HTML\Services_PreHospital.htm" />
     <Content Include="HTML\Services_Results.htm" />
+    <Content Include="HTML\Home_TestResults.htm" />
     <Content Include="HTML\Travel_Health.htm" />
     <Content Include="HTML\WalkInCentres.htm" />
+    <Content Include="Images\BloodTests.jpg" />
+    <Content Include="Images\TestResults.jpg" />
+    <Content Include="Images\XRays.jpg" />
     <Content Include="WebMethods.aspx" />
     <Content Include="Config\app_dev.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
