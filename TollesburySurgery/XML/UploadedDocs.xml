@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UploadedDocs>
+  
+  <Document ID="24" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>PPG Minutes 14th Sep 2015</DocumentName>
+    <AssociatedFileName>PPG MEETING Minutes 14th September 2015.docx</AssociatedFileName>
+  </Document>
   <Document ID="23" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Word</DocumentFileType>
