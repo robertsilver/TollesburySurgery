@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Menus>
+  <MenuItems>
+    <Menu ID="1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Home</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="1.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Care Quality Commission</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Book an appointment</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.0.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Online Cancellations</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.0.2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Prescriptions</Menu>
+  </MenuItems>
+   <MenuItems>
+    <Menu ID="2.0.2.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Test Results</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.0.3" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Registration</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.0.4" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Repeat Prescriptions</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">General Information</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Travel Health</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.3" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Health</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="2.3.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Walk in centres</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="3" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Services</Menu>
+    <Menu ID="36" ParentId="3" Header="No" DefaultMenu="No" ShowMenu="Yes">Chaperone Policy</Menu>
+    <Menu ID="33" ParentId="3" Header="No" DefaultMenu="No" ShowMenu="Yes">Home Visits</Menu>
+    <Menu ID="34" ParentId="3" Header="No" DefaultMenu="No" ShowMenu="Yes">Non-NHS Services</Menu>
+    <Menu ID="30" ParentId="3" Header="No" DefaultMenu="No" ShowMenu="No">Minor Surgery</Menu>
+    <Menu ID="31" ParentId="3" Header="No" DefaultMenu="No" ShowMenu="No">Pre-hospital Immediate Care</Menu>
+    <Menu ID="32" ParentId="3" Header="No" DefaultMenu="No" ShowMenu="No">Pregnancy &amp; Children</Menu>
+    <Menu ID="35" ParentId="3" Header="No" DefaultMenu="No" ShowMenu="Yes">Results</Menu>
+    <Menu ID="37" ParentId="3" Header="No" DefaultMenu="No" ShowMenu="Yes">Car Park</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="4" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">About the Practice</Menu>
+    <Menu ID="40" ParentId="4" Header="No" DefaultMenu="No" ShowMenu="No">Meet the Team</Menu>
+    <Menu ID="41" ParentId="4" Header="No" DefaultMenu="No" ShowMenu="Yes">How to Find Us</Menu>
+    <Menu ID="42" ParentId="4" Header="No" DefaultMenu="No" ShowMenu="Yes">Practice Area</Menu>
+    <Menu ID="43" ParentId="4" Header="No" DefaultMenu="No" ShowMenu="No">News</Menu>
+    <Menu ID="44" ParentId="4" Header="No" DefaultMenu="No" ShowMenu="No">The Patient Representative Group</Menu>
+    <Menu ID="45" ParentId="4" Header="No" DefaultMenu="No" ShowMenu="Yes">Practice Policies</Menu>
+    <Menu ID="46" ParentId="4" Header="No" DefaultMenu="No" ShowMenu="Yes">PALS</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="5" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Frequently Asked Questions</Menu>
+    <Menu ID="50" ParentId="5" Header="No" DefaultMenu="No" ShowMenu="Yes">Flu Vaccinations</Menu>
+    <Menu ID="51" ParentId="5" Header="No" DefaultMenu="No" ShowMenu="Yes">Treating Yourself at Home</Menu>
+    <Menu ID="52" ParentId="5" Header="No" DefaultMenu="No" ShowMenu="Yes">Healthy Living</Menu>
+    <Menu ID="53" ParentId="5" Header="No" DefaultMenu="No" ShowMenu="Yes">Register with us</Menu>
+    <Menu ID="54" ParentId="5" Header="No" DefaultMenu="No" ShowMenu="Yes">Benefits, Care &amp; Carers</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="6" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Dispensing</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="7" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Frequently Asked Questions</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="80a" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Cancelling your Appointment</Menu>
+    <Menu ID="80" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Checking your Appointment Details</Menu>
+    <Menu ID="81" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Asthma &amp; COPD Clinic</Menu>
+    <Menu ID="82" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Blood Tests</Menu>
+    <Menu ID="83" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Cervical Screening (Smears)</Menu>
+    <Menu ID="84" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Childhood Immunisations</Menu>
+    <Menu ID="85" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Diabetic Clinic</Menu>
+    <Menu ID="86" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Dressings Clinic</Menu>
+    <Menu ID="87" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Family Planning</Menu>
+    <Menu ID="88" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Foreign Travel</Menu>
+    <Menu ID="89" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Healthy Heart</Menu>
+    <Menu ID="80a" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Hypertension Clinic</Menu>
+    <Menu ID="80b" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Smoking Cessation</Menu>
+    <Menu ID="80c" ParentId="8" Header="No" DefaultMenu="No" ShowMenu="Yes">Warfarin Testing</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="9" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Out of Hours</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="10" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Ask your GP</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="11" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Enquiries</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="12" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes" Link="/Files.aspx?q=1,title=Tollesbury Surgery | Patient Forms">Patient Forms</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="13" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Contact Us</Menu>
+    <Menu ID="130" ParentId="13" Header="No" DefaultMenu="No" ShowMenu="Yes">Complaints</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="14" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No" Link="/Files.aspx?q=2,title=Tollesbury Surgery | Questionnaires">Questionnaires</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="140" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Friends and Family Test</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="15" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes" Link="/Files.aspx?q=3,title=Tollesbury Surgery | Patient Participation Forum">Patient Participation Forum</Menu>
+  </MenuItems>
+  <MenuItems>
+    <Menu ID="16" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Answers</Menu>
+  </MenuItems>
+</Menus>

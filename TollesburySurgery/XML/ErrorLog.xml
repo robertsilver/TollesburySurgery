@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ErrorItems>
+  <ErrorItem ID="0">
+    <ErrorInFilename>Email.cs</ErrorInFilename>
+    <ErrorInMethodName>EmailCustomer()</ErrorInMethodName>
+    <DateAndTime>16/04/2012 15:23:00</DateAndTime>
+    <Error>Unable to send to all recipients.</Error>
+  </ErrorItem>
+  <ErrorItem ID="1">
+    <ErrorInFilename>Email.cs</ErrorInFilename>
+    <ErrorInMethodName>EmailCustomer()</ErrorInMethodName>
+    <DateAndTime>16/04/2012 15:41:50</DateAndTime>
+    <Error>Unable to send to all recipients.</Error>
+  </ErrorItem>
+  <ErrorItem ID="2">
+    <ErrorInFilename>Email.cs</ErrorInFilename>
+    <ErrorInMethodName>EmailCustomer()</ErrorInMethodName>
+    <DateAndTime>16/04/2012 15:45:48</DateAndTime>
+    <Error>Unable to send to all recipients.</Error>
+  </ErrorItem>
+  <ErrorItem ID="3">
+    <ErrorInFilename>Email.cs</ErrorInFilename>
+    <ErrorInMethodName>EmailCustomer()</ErrorInMethodName>
+    <DateAndTime>16/04/2012 15:46:22</DateAndTime>
+    <Error>Unable to send to all recipients.</Error>
+  </ErrorItem>
+  <ErrorItem ID="4">
+    <ErrorInFilename>Email.cs</ErrorInFilename>
+    <ErrorInMethodName>EmailCustomer()</ErrorInMethodName>
+    <DateAndTime>16/04/2012 15:47:34</DateAndTime>
+    <Error>Unable to send to all recipients.</Error>
+  </ErrorItem>
+  <ErrorItem ID="5">
+    <ErrorInFilename>Email.cs</ErrorInFilename>
+    <ErrorInMethodName>EmailCustomer()</ErrorInMethodName>
+    <DateAndTime>16/04/2012 16:01:03</DateAndTime>
+    <Error>Failure sending mail.</Error>
+  </ErrorItem>
+</ErrorItems>
