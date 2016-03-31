@@ -24,6 +24,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -91,6 +92,7 @@
     <Content Include="HTML\About_PatientRepGrp.htm" />
     <Content Include="HTML\About_PracticeArea.htm" />
     <Content Include="HTML\About_PracticePolicies.htm" />
+    <Content Include="HTML\AccountableGp.html" />
     <Content Include="HTML\Answers.htm" />
     <Content Include="HTML\CancelAppointment.htm" />
     <Content Include="HTML\FriendsAndFamilyTest.htm" />
