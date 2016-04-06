@@ -173,8 +173,8 @@ namespace TollesburySurgery
                     title = websiteName + "Answers";
                     break;
                 case "17":
-                    fileName += AppSettings.AppSetting("AccountableGp");
-                    title = websiteName + "Accountable GP";
+                    fileName += AppSettings.AppSetting("GpEarnings");
+                    title = websiteName + "GP Earnings";
                     break;
                 case "30":
                     fileName += AppSettings.AppSetting("MinorSurgery");
