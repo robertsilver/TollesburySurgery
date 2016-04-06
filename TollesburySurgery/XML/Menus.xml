@@ -10,16 +10,14 @@
     <Menu ID="2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Book an appointment</Menu>
   </MenuItems>
   <MenuItems>
-    <Menu ID="2.0.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Online Cancellations</Menu>
-  </MenuItems>
-  <MenuItems>
-    <Menu ID="2.0.2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Prescriptions</Menu>
+    <Menu ID="2.0.2" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online</Menu>
+    <Menu ID="2.0.2.0" ParentId="2.0.2" Header="No" DefaultMenu="No" ShowMenu="Yes">Prescriptions</Menu>
+    <Menu ID="2.0.2.1" ParentId="2.0.2" Header="No" DefaultMenu="No" ShowMenu="Yes">Registration</Menu>
+    <Menu ID="2.0.2.2" ParentId="2.0.2" Header="No" DefaultMenu="No" ShowMenu="Yes">Medical Records</Menu>
+    <Menu ID="2.0.2.3" ParentId="2.0.2" Header="No" DefaultMenu="No" ShowMenu="No">Cancellations</Menu>
   </MenuItems>
    <MenuItems>
-    <Menu ID="2.0.2.1" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Test Results</Menu>
-  </MenuItems>
-  <MenuItems>
-    <Menu ID="2.0.3" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Online Registration</Menu>
+    <Menu ID="2.0.3" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Test Results</Menu>
   </MenuItems>
   <MenuItems>
     <Menu ID="2.0.4" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Repeat Prescriptions</Menu>
