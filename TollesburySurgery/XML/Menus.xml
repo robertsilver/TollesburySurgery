@@ -35,8 +35,6 @@
   <MenuItems>
     <Menu ID="6.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Repeat Prescriptions</Menu>
   </MenuItems>
-  
-  
   <MenuItems>
     <Menu ID="7.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Book an appointment</Menu>
   </MenuItems>

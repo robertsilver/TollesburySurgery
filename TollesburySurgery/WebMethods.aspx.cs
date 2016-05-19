@@ -86,13 +86,9 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("Home");
                     title = websiteName + "Home";
                     break;
-                case "26.0.0":
-                    fileName += AppSettings.AppSetting("CQC");
-                    title = websiteName + "CQC";
-                    break;
-                case "7.0.0":
-                    fileName += AppSettings.AppSetting("BookAppointment");
-                    title = websiteName + "Book an appointment";
+                case "2.0.0":
+                    fileName += AppSettings.AppSetting("GeneralInformation");
+                    title = websiteName + "General Information";
                     break;
                 case "3.0.0.0":
                     fileName += AppSettings.AppSetting("OnlinePrescriptions");
@@ -110,6 +106,10 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("OnlineCancellations");
                     title = websiteName + "Online Cancellations";
                     break;
+                case "4.0.0":
+                    fileName += AppSettings.AppSetting("CancelAppointment");
+                    title = websiteName + "Cancel an Appointment";
+                    break;
                 case "5.0.0":
                     fileName += AppSettings.AppSetting("TestResults");
                     title = websiteName + "Test Results";
@@ -118,9 +118,9 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("RepeatPrescriptions");
                     title = websiteName + "Repeat Prescriptions";
                     break;
-                case "2.0.0":
-                    fileName += AppSettings.AppSetting("GeneralInformation");
-                    title = websiteName + "General Information";
+                case "7.0.0":
+                    fileName += AppSettings.AppSetting("BookAppointment");
+                    title = websiteName + "Book an appointment";
                     break;
                 case "8.0.0":
                     fileName += AppSettings.AppSetting("TravelHealth");
@@ -138,51 +138,21 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("Services");
                     title = websiteName + "Services";
                     break;
-                case "12.0.0":
-                    fileName += AppSettings.AppSetting("AboutUs");
-                    title = websiteName + "About the Practice";
-                    break;
-                case "13.0.0":
-                    fileName += AppSettings.AppSetting("FAQ");
-                    title = websiteName + "FAQs";
-                    break;
-                case "14.0.0":
-                    fileName += AppSettings.AppSetting("Dispensing");
-                    title = websiteName + "Dispensing";
-                    break;
-                case "16.0.0":
-                    fileName += AppSettings.AppSetting("OutOfHours");
-                    title = websiteName + "Out of Hours";
-                    break;
-                case "18.0.0":
-                    fileName += AppSettings.AppSetting("Enquiries");
-                    title = websiteName + "Enquiries";
-                    break;
-                case "19.0.0":
-                    //    fileName += AppSettings.AppSetting("PatientForms");
-                    title = websiteName + "Patient Forms";
-                    HTMLFileFound = false;
-                    break;
-                case "20.0.0":
-                    fileName += AppSettings.AppSetting("ContactUs");
-                    title = websiteName + "Contact Us";
-                    break;
-                case "21.0.0":
-                    //fileName += AppSettings.AppSetting("Questionnaires");
-                    title = websiteName + "Questionnaires";
-                    HTMLFileFound = false;
-                    break;
-                case "24.0.0":
-                    fileName += AppSettings.AppSetting("Answers");
-                    title = websiteName + "Answers";
-                    break;
-                case "25.0.0":
-                    fileName += AppSettings.AppSetting("GpEarnings");
-                    title = websiteName + "GP Earnings";
-                    break;
                 case "11.0.1":
                     fileName += AppSettings.AppSetting("NamedGp");
                     title = websiteName + "Named GP";
+                    break;
+                case "11.0.0.0":
+                    fileName += AppSettings.AppSetting("ChaperonePolicy");
+                    title = websiteName + "Chaperone Policy";
+                    break;
+                case "11.0.0.1":
+                    fileName += AppSettings.AppSetting("HomeVisits");
+                    title = websiteName + "Home Visits";
+                    break;
+                case "11.0.0.2":
+                    fileName += AppSettings.AppSetting("Non-NHS");
+                    title = websiteName + "Non-NHS";
                     break;
                 case "11.0.0.3":
                     fileName += AppSettings.AppSetting("MinorSurgery");
@@ -196,25 +166,17 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("Pregnancy");
                     title = websiteName + "Pregnancy & Children";
                     break;
-                case "11.0.0.1":
-                    fileName += AppSettings.AppSetting("HomeVisits");
-                    title = websiteName + "Home Visits";
-                    break;
-                case "11.0.0.2":
-                    fileName += AppSettings.AppSetting("Non-NHS");
-                    title = websiteName + "Non-NHS";
-                    break;
                 case "11.0.0.6":
                     fileName += AppSettings.AppSetting("Results");
                     title = websiteName + "Results";
                     break;
-                case "11.0.0.0":
-                    fileName += AppSettings.AppSetting("ChaperonePolicy");
-                    title = websiteName + "Chaperone Policy";
-                    break;
                 case "11.0.0.7":
                     fileName += AppSettings.AppSetting("CarPark");
                     title = websiteName + "Car Park";
+                    break;
+                case "12.0.0":
+                    fileName += AppSettings.AppSetting("AboutUs");
+                    title = websiteName + "About the Practice";
                     break;
                 case "12.0.0.0":
                     fileName += AppSettings.AppSetting("MeetTheTeam");
@@ -240,6 +202,10 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("PALS");
                     title = websiteName + "About the Practice | PALS";
                     break;
+                case "13.0.0":
+                    fileName += AppSettings.AppSetting("FAQ");
+                    title = websiteName + "FAQs";
+                    break;
                 case "13.0.0.0":
                     fileName += AppSettings.AppSetting("Flu");
                     title = websiteName + "FAQ | Flu Vaccinations";
@@ -260,17 +226,51 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("Benefits");
                     title = websiteName + "FAQ | Benefits, Care & Carers";
                     break;
-                case "4.0.0":
-                    fileName += AppSettings.AppSetting("CancelAppointment");
-                    title = websiteName + "Cancel an Appointment";
+                case "14.0.0":
+                    fileName += AppSettings.AppSetting("Dispensing");
+                    title = websiteName + "Dispensing";
+                    break;
+                case "16.0.0":
+                    fileName += AppSettings.AppSetting("OutOfHours");
+                    title = websiteName + "Out of Hours";
+                    break;
+                case "18.0.0":
+                    fileName += AppSettings.AppSetting("Enquiries");
+                    title = websiteName + "Enquiries";
+                    break;
+                case "19.0.0":
+                    //    fileName += AppSettings.AppSetting("PatientForms");
+                    title = websiteName + "Patient Forms";
+                    HTMLFileFound = false;
+                    break;
+                case "20.0.0":
+                    fileName += AppSettings.AppSetting("ContactUs");
+                    title = websiteName + "Contact Us";
                     break;
                 case "20.0.0.0":
                     fileName += AppSettings.AppSetting("Complaints");
                     title = websiteName + "Complaints";
                     break;
+                case "21.0.0":
+                    //fileName += AppSettings.AppSetting("Questionnaires");
+                    title = websiteName + "Questionnaires";
+                    HTMLFileFound = false;
+                    break;
                 case "22.0.0":
                     fileName += AppSettings.AppSetting("FriendsAndFamilyTest");
                     title = websiteName + "Friends and Family Test";
+                    break;
+                case "24.0.0":
+                    fileName += AppSettings.AppSetting("Answers");
+                    title = websiteName + "Answers";
+                    break;
+                case "25.0.0":
+                    fileName += AppSettings.AppSetting("GpEarnings");
+                    title = websiteName + "GP Earnings";
+                    break;
+                case "26.0.0":
+                    fileName += AppSettings.AppSetting("CQC");
+                    title = websiteName + "CQC";
                     break;
                 default:
                     HTMLFileFound = false;
