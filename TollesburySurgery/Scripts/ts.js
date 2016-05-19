@@ -171,7 +171,7 @@
 
         if (areWeOnDefaultPage() || isTheAddressBarBlankAfterHttp()) {
             rebuildCenterCol();
-            getAndDisplayMenuContent('1');
+            getAndDisplayMenuContent('1.0.0');
         }
 
         if ($('.main-content').val() === '' || $('.main-content').val() === undefined ||
