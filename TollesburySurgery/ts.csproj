@@ -127,6 +127,7 @@
     <Content Include="HTML\OutOfHours.htm" />
     <Content Include="HTML\Services.htm" />
     <Content Include="HTML\Services_MinorSurgery.htm" />
+    <Content Include="HTML\NamedGp.html" />
     <Content Include="HTML\Services_NonNHS.htm" />
     <Content Include="HTML\Services_Pregnancy.htm" />
     <Content Include="HTML\Services_PreHospital.htm" />

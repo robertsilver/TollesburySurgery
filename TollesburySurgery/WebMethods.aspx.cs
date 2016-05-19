@@ -82,189 +82,193 @@ namespace TollesburySurgery
             string websiteName = "Tollesbury Surgery | ";
             switch (dataIdValue)
             {
-                case "1":
+                case "1.0.0":
                     fileName += AppSettings.AppSetting("Home");
                     title = websiteName + "Home";
                     break;
-                case "1.1":
+                case "26.0.0":
                     fileName += AppSettings.AppSetting("CQC");
                     title = websiteName + "CQC";
                     break;
-                case "2":
+                case "7.0.0":
                     fileName += AppSettings.AppSetting("BookAppointment");
                     title = websiteName + "Book an appointment";
                     break;
-                case "2.0.2.0":
+                case "3.0.0.0":
                     fileName += AppSettings.AppSetting("OnlinePrescriptions");
                     title = websiteName + "Online Prescriptions";
                     break;
-                case "2.0.2.1":
+                case "3.0.0.1":
                     fileName += AppSettings.AppSetting("OnlineRegistration");
                     title = websiteName + "Online Registration";
                     break;
-                case "2.0.2.2":
+                case "3.0.0.2":
                     fileName += AppSettings.AppSetting("OnlineMedicalRecords");
                     title = websiteName + "Online Medical Records";
                     break;
-                case "2.0.2.3":
+                case "3.0.0.3":
                     fileName += AppSettings.AppSetting("OnlineCancellations");
                     title = websiteName + "Online Cancellations";
                     break;
-                case "2.0.3":
+                case "5.0.0":
                     fileName += AppSettings.AppSetting("TestResults");
                     title = websiteName + "Test Results";
                     break;
-                case "2.0.4":
+                case "6.0.0":
                     fileName += AppSettings.AppSetting("RepeatPrescriptions");
                     title = websiteName + "Repeat Prescriptions";
                     break;
-                case "2.1":
+                case "2.0.0":
                     fileName += AppSettings.AppSetting("GeneralInformation");
                     title = websiteName + "General Information";
                     break;
-                case "2.2":
+                case "8.0.0":
                     fileName += AppSettings.AppSetting("TravelHealth");
                     title = websiteName + "Travel Health";
                     break;
-                case "2.3":
+                case "9.0.0":
                     fileName += AppSettings.AppSetting("ChildrensHealth");
                     title = websiteName + "Children's Health";
                     break;
-                case "2.3.1":
+                case "10.0.0":
                     fileName += AppSettings.AppSetting("WalkInCentres");
                     title = websiteName + "Walk-in Centres";
                     break;
-                case "3":
+                case "11.0.0":
                     fileName += AppSettings.AppSetting("Services");
                     title = websiteName + "Services";
                     break;
-                case "4":
+                case "12.0.0":
                     fileName += AppSettings.AppSetting("AboutUs");
                     title = websiteName + "About the Practice";
                     break;
-                case "5":
+                case "13.0.0":
                     fileName += AppSettings.AppSetting("FAQ");
                     title = websiteName + "FAQs";
                     break;
-                case "6":
+                case "14.0.0":
                     fileName += AppSettings.AppSetting("Dispensing");
                     title = websiteName + "Dispensing";
                     break;
-                case "9":
+                case "16.0.0":
                     fileName += AppSettings.AppSetting("OutOfHours");
                     title = websiteName + "Out of Hours";
                     break;
-                case "11":
+                case "18.0.0":
                     fileName += AppSettings.AppSetting("Enquiries");
                     title = websiteName + "Enquiries";
                     break;
-                case "12":
+                case "19.0.0":
                     //    fileName += AppSettings.AppSetting("PatientForms");
                     title = websiteName + "Patient Forms";
                     HTMLFileFound = false;
                     break;
-                case "13":
+                case "20.0.0":
                     fileName += AppSettings.AppSetting("ContactUs");
                     title = websiteName + "Contact Us";
                     break;
-                case "14":
+                case "21.0.0":
                     //fileName += AppSettings.AppSetting("Questionnaires");
                     title = websiteName + "Questionnaires";
                     HTMLFileFound = false;
                     break;
-                case "16":
+                case "24.0.0":
                     fileName += AppSettings.AppSetting("Answers");
                     title = websiteName + "Answers";
                     break;
-                case "17":
+                case "25.0.0":
                     fileName += AppSettings.AppSetting("GpEarnings");
                     title = websiteName + "GP Earnings";
                     break;
-                case "30":
+                case "11.0.1":
+                    fileName += AppSettings.AppSetting("NamedGp");
+                    title = websiteName + "Named GP";
+                    break;
+                case "11.0.0.3":
                     fileName += AppSettings.AppSetting("MinorSurgery");
                     title = websiteName + "Minor Surgery";
                     break;
-                case "31":
+                case "11.0.0.4":
                     fileName += AppSettings.AppSetting("PreHospital");
                     title = websiteName + "Pre-Hospital";
                     break;
-                case "32":
+                case "11.0.0.5":
                     fileName += AppSettings.AppSetting("Pregnancy");
                     title = websiteName + "Pregnancy & Children";
                     break;
-                case "33":
+                case "11.0.0.1":
                     fileName += AppSettings.AppSetting("HomeVisits");
                     title = websiteName + "Home Visits";
                     break;
-                case "34":
+                case "11.0.0.2":
                     fileName += AppSettings.AppSetting("Non-NHS");
                     title = websiteName + "Non-NHS";
                     break;
-                case "35":
+                case "11.0.0.6":
                     fileName += AppSettings.AppSetting("Results");
                     title = websiteName + "Results";
                     break;
-                case "36":
+                case "11.0.0.0":
                     fileName += AppSettings.AppSetting("ChaperonePolicy");
                     title = websiteName + "Chaperone Policy";
                     break;
-                case "37":
+                case "11.0.0.7":
                     fileName += AppSettings.AppSetting("CarPark");
                     title = websiteName + "Car Park";
                     break;
-                case "40":
+                case "12.0.0.0":
                     fileName += AppSettings.AppSetting("MeetTheTeam");
                     title = websiteName + "About the Practice | Meet the Team";
                     break;
-                case "41":
+                case "12.0.0.1":
                     fileName += AppSettings.AppSetting("HowToFindUs");
                     title = websiteName + "About the Practice | How to Find Us";
                     break;
-                case "42":
+                case "12.0.0.2":
                     fileName += AppSettings.AppSetting("PracticeArea");
                     title = websiteName + "About the Practice | Practice Area";
                     break;
-                case "44":
+                case "12.0.0.4":
                     fileName += AppSettings.AppSetting("PatientRepGrp");
                     title = websiteName + "About the Practice | Patient Representative Group";
                     break;
-                case "45":
+                case "12.0.0.5":
                     fileName += AppSettings.AppSetting("PracticePolicies");
                     title = websiteName + "About the Practice | Practice Policies";
                     break;
-                case "46":
+                case "12.0.0.6":
                     fileName += AppSettings.AppSetting("PALS");
                     title = websiteName + "About the Practice | PALS";
                     break;
-                case "50":
+                case "13.0.0.0":
                     fileName += AppSettings.AppSetting("Flu");
                     title = websiteName + "FAQ | Flu Vaccinations";
                     break;
-                case "51":
+                case "13.0.0.1":
                     fileName += AppSettings.AppSetting("TreatingYourself");
                     title = websiteName + "FAQ | Treating Yourself";
                     break;
-                case "52":
+                case "13.0.0.2":
                     fileName += AppSettings.AppSetting("HealthyLiving");
                     title = websiteName + "FAQ | Healthy Living";
                     break;
-                case "53":
+                case "13.0.0.3":
                     fileName += AppSettings.AppSetting("RegisterWithUs");
                     title = websiteName + "FAQ | Register With Us";
                     break;
-                case "54":
+                case "13.0.0.4":
                     fileName += AppSettings.AppSetting("Benefits");
                     title = websiteName + "FAQ | Benefits, Care & Carers";
                     break;
-                case "80a":
+                case "4.0.0":
                     fileName += AppSettings.AppSetting("CancelAppointment");
                     title = websiteName + "Cancel an Appointment";
                     break;
-                case "130":
+                case "20.0.0.0":
                     fileName += AppSettings.AppSetting("Complaints");
                     title = websiteName + "Complaints";
                     break;
-                case "140":
+                case "22.0.0":
                     fileName += AppSettings.AppSetting("FriendsAndFamilyTest");
                     title = websiteName + "Friends and Family Test";
                     break;
