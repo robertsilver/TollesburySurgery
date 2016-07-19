@@ -184,3 +184,94 @@
 {
     clear: both;
 }
+
+/* This is for the popup */
+/* ------------- Dialogue Box --------------------*/
+#LayoutDialogBoxFadedBackground, .LayoutDialogBoxFadedBackground {
+    position: fixed;
+    overflow: visible;
+    z-index: 25;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    filter: alpha(opacity=75); /*for IE */
+    opacity: .75; /*for firefox */
+    _position: absolute; /*hack for internet explorer 6  */
+}
+
+#LayoutDialogBox, .LayoutDialogBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    min-height: 150px;
+    margin-left: -175px;
+    margin-top: -175px;                  
+    z-index: 30;
+    _position: absolute; /* hack for internet explorer 6 */
+    border-width: 2px;
+    border-style: solid;           
+}
+        
+#LayoutDialogBoxHeader {
+    height: 24px;
+    text-align: left;
+}
+        
+#LayoutDialogBoxClose {
+    width: 24px;
+    height: 24px;
+    /*background: url('/Images/Icons/iconCancelColour_24x24.png') no-repeat;*/
+    background-position: center;
+    top: 0px;
+    position: absolute;
+    right: 2px;
+    cursor: pointer;
+}
+        
+    #LayoutDialogBoxClose:hover {
+   /*background: url('/Images/Icons/iconCancelColour_24x24.png') no-repeat;*/
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    top: 0px;
+    position: absolute;
+    right: 2px;
+    cursor: pointer;
+}
+        
+#LayoutDialogBoxTitle {
+    padding: 5px;
+    text-align: left;
+}
+               
+#LayoutDialogBoxMessage {
+    text-align: left;
+    padding: 20px 10px 10px 10px;    
+}
+
+.ThemeB2Bg
+{
+	background-color: #0B62A4 !important; /*changed 15/11/2012*/
+}
+
+.Theme0Bg
+{
+	background-color: #FFF !important; /*White*/
+}
+
+.ThemeB2Border
+{
+	border-color:#0B62A4; 
+}
+
+.ThemeA1
+{
+	color: #3D3D3D  !important; /*changed 15/11/2012*/
+}
+
+.Theme0
+{
+	color: #FFF !important; /*White*/
+}

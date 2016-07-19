@@ -67,12 +67,14 @@
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\Upload.aspx" />
+    <Content Include="Code\FriendsAndFamily.aspx" />
     <Content Include="Content\Images\confidentiality.jpg" />
     <Content Include="Content\Images\content-bg.jpg" />
     <Content Include="Content\Images\content.jpg" />
     <Content Include="Content\Images\Excel_Image.png" />
     <Content Include="Content\Images\footer.jpg" />
     <Content Include="Content\Images\header.gif" />
+    <Content Include="Content\Images\iconCancelColour_24x24.png" />
     <Content Include="Content\Images\large-loader-strip.gif" />
     <Content Include="Content\Images\nav-bg.jpg" />
     <Content Include="Content\Images\navlist-left.jpg" />
@@ -84,7 +86,7 @@
     <Content Include="Content\ts.css" />
     <Content Include="Default.aspx" />
     <Content Include="Emails\EmailText.txt" />
-    <Content Include="Files.aspx" />
+    <Content Include="Code\Files.aspx" />
     <Content Include="HTML\About.htm" />
     <Content Include="HTML\About_HowToFindUs.htm" />
     <Content Include="HTML\About_MeetTheTeam.htm" />
@@ -212,6 +214,13 @@
     <Compile Include="Account\Upload.aspx.designer.cs">
       <DependentUpon>Upload.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Code\FriendsAndFamily.aspx.cs">
+      <DependentUpon>FriendsAndFamily.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Code\FriendsAndFamily.aspx.designer.cs">
+      <DependentUpon>FriendsAndFamily.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -219,11 +228,11 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Files.aspx.cs">
+    <Compile Include="Code\Files.aspx.cs">
       <DependentUpon>Files.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Files.aspx.designer.cs">
+    <Compile Include="Code\Files.aspx.designer.cs">
       <DependentUpon>Files.aspx</DependentUpon>
     </Compile>
     <Compile Include="Generic\Generic.cs" />
