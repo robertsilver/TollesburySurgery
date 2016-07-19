@@ -256,10 +256,10 @@ namespace TollesburySurgery
                     title = websiteName + "Questionnaires";
                     HTMLFileFound = false;
                     break;
-                case "22.0.0":
-                    fileName += AppSettings.AppSetting("FriendsAndFamilyTest");
-                    title = websiteName + "Friends and Family Test";
-                    break;
+                //case "22.0.0":
+                //    fileName += AppSettings.AppSetting("FriendsAndFamilyTest");
+                //    title = websiteName + "Friends and Family Test";
+                //    break;
                 case "24.0.0":
                     fileName += AppSettings.AppSetting("Answers");
                     title = websiteName + "Answers";

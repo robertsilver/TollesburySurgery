@@ -9,26 +9,28 @@ namespace TSDomain
         //private string _emailHostName = string.Empty;
         private readonly int _portNumber = 0;
         private readonly string _emailServer = string.Empty;
-        private readonly string _fromMailAddress = string.Empty;
+        private readonly string _fromEmailAddress = string.Empty;
+        private readonly bool _onLiveServer;
 
-        public Email(string fromMailAddress, string emailServer, int portNumber, string bccEmail)
+        public Email(string fromMailAddress, string EmailServer, int portNumber, string bccEmail, bool onLiveServer)
         {
             _bccEmail = bccEmail;
             //_emailHostName = emailHostName;
             _portNumber = portNumber;
-            _emailServer = emailServer;
-            _fromMailAddress = fromMailAddress;
+            _emailServer = EmailServer;
+            _fromEmailAddress = fromMailAddress;
+            _onLiveServer = onLiveServer;
         }
 
-        public void EmailCustomer(string emailBodyText, string toEmailAddress, string CCMailAddress, string subject)
+        public bool EmailCustomer(string emailBodyText, string ToEmailAddress, string CCMailAddress, string subject)
         {
-            if (string.IsNullOrEmpty(_fromMailAddress))
-                return;
+            if (string.IsNullOrEmpty(_fromEmailAddress))
+                return false;
 
             try
             {
-                MailAddress fromMail = new MailAddress(_fromMailAddress);
-                MailAddress toMail = new MailAddress(toEmailAddress);
+                MailAddress fromMail = new MailAddress(_fromEmailAddress);
+                MailAddress toMail = new MailAddress(ToEmailAddress);
 
                 MailMessage msgDetails = new MailMessage(fromMail, toMail)
                 {
@@ -59,16 +61,24 @@ namespace TSDomain
                     msgDetails.Bcc.Add(_bccEmail);
                 #endregion Add the BCC mail addresses
 
-                SmtpClient client = new SmtpClient(_emailServer, _portNumber);
-                if (_portNumber != 0)
-                    client.Port = _portNumber;
+                var client = new SmtpClient(_emailServer, _portNumber);
+
+                if (!_onLiveServer)
+                {
+                    // We need to provide the credentials if we're not on the live server.
+                    client.Credentials = new System.Net.NetworkCredential("blackhole@tollesburysurgery.co.uk", "ogaziechi");
+                    if (_portNumber != 0)
+                        client.Port = _portNumber;
+                }
 
                 // Send the email
                 client.Send(msgDetails);
+                return true;
             }
             catch(Exception ex)
             {
                 Core.SaveErrorToFile("Email.cs", "EmailCustomer()", ex.Message);
+                return false;
             }
         }
 

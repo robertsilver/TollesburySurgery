@@ -95,20 +95,20 @@
     <Menu ID="18.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Enquiries</Menu>
   </MenuItems>
   <MenuItems>
-    <Menu ID="19.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes" Link="/Files.aspx?q=1,title=Tollesbury Surgery | Patient Forms">Patient Forms</Menu>
+    <Menu ID="19.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes" Link="/Code/Files.aspx?q=1,title=Tollesbury Surgery | Patient Forms">Patient Forms</Menu>
   </MenuItems>
   <MenuItems>
     <Menu ID="20.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Contact Us</Menu>
     <Menu ID="20.0.0.0" ParentId="20.0.0" Header="No" DefaultMenu="No" ShowMenu="Yes">Complaints</Menu>
   </MenuItems>
   <MenuItems>
-    <Menu ID="21.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No" Link="/Files.aspx?q=2,title=Tollesbury Surgery | Questionnaires">Questionnaires</Menu>
+    <Menu ID="21.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No" Link="/Code/Files.aspx?q=2,title=Tollesbury Surgery | Questionnaires">Questionnaires</Menu>
   </MenuItems>
   <MenuItems>
-    <Menu ID="22.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Friends and Family Test</Menu>
+    <Menu ID="22.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes" Link="/Code/FriendsAndFamily.aspx?title=Tollesbury Surgery | Questionnaires">Friends and Family Test</Menu>
   </MenuItems>
   <MenuItems>
-    <Menu ID="23.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes" Link="/Files.aspx?q=3,title=Tollesbury Surgery | Patient Participation Forum">Patient Participation Forum</Menu>
+    <Menu ID="23.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes" Link="/Code/Files.aspx?q=3,title=Tollesbury Surgery | Patient Participation Forum">Patient Participation Forum</Menu>
   </MenuItems>
   <MenuItems>
     <Menu ID="24.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="No">Answers</Menu>

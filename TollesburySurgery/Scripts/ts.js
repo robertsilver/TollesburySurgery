@@ -203,7 +203,7 @@
         var path = window.location.pathname;
         var page = path.substring(path.lastIndexOf('/') + 1);
 
-        if (page.toLowerCase() === 'upload.aspx' || page.toLowerCase() === 'login.aspx' || page.toLowerCase() === 'files.aspx')
+        if (page.toLowerCase() === 'upload.aspx' || page.toLowerCase() === 'login.aspx' || page.toLowerCase() === 'files.aspx' || page.toLowerCase() === 'friendsandfamily.aspx')
             return true;
 
         return false;
@@ -294,6 +294,83 @@
             }
         });
     }
+
+
+    jQuery.popup = {
+        show: function (title, message, options) {
+            if (!this.initialized) {
+                //inject needed elements in DOM
+                var domElements = '<div id="LayoutDialogBoxFadedBackground" class="Theme0Bg"></div>';
+                domElements += '<div id="LayoutDialogBox"' + 'class="Theme0Bg ThemeB2Border">';
+                domElements += '<div id="LayoutDialogBoxHeader"' + 'class="ThemeA1" height="24px"><a id="LayoutDialogBoxClose"><img src="../Content/Images/iconCancelColour_24x24.png" alt="close" width="24px" height="24px" class="ThemeB2Bg" /></a></div>';
+                domElements += '<div id="LayoutDialogBoxTitle" class="ThemeB2Bg Theme0"></div>';
+                domElements += '<div id="LayoutDialogBoxMessage"></div>';
+                domElements += '</div>';
+
+                jQuery('body').append(domElements);
+                jQuery('#LayoutDialogBoxFadedBackground').click(function () { hidePopup(); });
+                jQuery('#LayoutDialogBoxClose').click(function () { hidePopup(); });
+
+                this.initialized = true;
+                //alert('1: ' + this.showing);
+            }
+
+            if (!isIPhone() && !false) {
+                message = message.replace(/\n/g, "<br/>");
+
+                // prepare popup Layout
+                jQuery('#LayoutDialogBoxTitle').html(title);
+                jQuery('#LayoutDialogBoxMessage').html(message);
+
+                // display
+                showPopup(this.showing);
+
+            } else {
+                alert(message);
+
+            }
+
+            // show popup
+            function showPopup(showingTemp) {
+                //alert('2: ' + this.showing);
+                if ((!this.showing) || (!showingTemp)) {
+                    if ($.browser.msie && $.browser.version.substr(0, 1) < 7) {
+                        jQuery('#dropdownlistSitesOrServices').css({ "opacity": "0.3" });
+                    }
+                    jQuery('#LayoutDialogBoxFadedBackground').css({ "opacity": "0.6" });
+                    jQuery('#LayoutDialogBoxFadedBackground').fadeIn("slow");
+                    jQuery('#LayoutDialogBox').fadeIn("slow");
+                    this.showing = true;
+                }
+            }
+
+            // hide popup
+            function hidePopup() {
+                if (this.showing) {
+                    if ($.browser.msie && $.browser.version.substr(0, 1) < 7) {
+                        jQuery('#dropdownlistSitesOrServices').css({ "opacity": "1" });
+                    }
+                    jQuery('#LayoutDialogBoxFadedBackground').fadeOut("normal");
+                    jQuery('#LayoutDialogBox').fadeOut("normal");
+                    this.showing = false;
+                }
+            }
+
+            // detects if browser is iPhone/iPod Safari
+            function isIPhone() {
+                if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+                    return true;
+                }
+
+                //return false;
+            }
+
+            return jQuery;
+
+        }
+    }; // end show function
+    
+
 
     var urlParams = {};
     (function () {

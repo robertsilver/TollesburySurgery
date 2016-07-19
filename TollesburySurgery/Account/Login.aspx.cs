@@ -17,12 +17,13 @@ namespace TS.Account
                 if (CreateNewPwd(out newPwd, out userId))
                 {
                     Core.SetForgottenPwdFlagToYes(UserName.Text);
-                    int portNumber = AppSettings.AppSetting("EmailPort") == string.Empty ? 0 : Convert.ToInt32(AppSettings.AppSetting("EmailPort"));
+                    int portNumber = AppSettings.AppSetting("Email.EmailPort") == string.Empty ? 0 : Convert.ToInt32(AppSettings.AppSetting("Email.EmailPort"));
                     Email em = new Email(
-                        AppSettings.AppSetting("FromMailAddress"), 
-                        AppSettings.AppSetting("EmailServer"),
+                        AppSettings.AppSetting("FromEmailAddress"), 
+                        AppSettings.AppSetting("Email.EmailServer"),
                         portNumber, 
-                        AppSettings.AppSetting("BCCEmailAddress"));
+                        AppSettings.AppSetting("Email.BCCEmailAddress"),
+                        Convert.ToBoolean(AppSettings.AppSetting("Email.AreWeOnLiveServer")));
                     string emailBody = File.ReadAllText(AppSettings.AppSetting("EmailText"));
                     emailBody = string.Format(emailBody, newPwd, "2");
                     em.EmailCustomer(emailBody, "robsilver@umail.net" /*UserName.Text*/, string.Empty, "New password");
