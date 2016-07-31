@@ -147,6 +147,7 @@
     <Content Include="Config\app_live.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Config\app_home_machine.config" />
     <None Include="Properties\PublishProfiles\Live.pubxml" />
     <None Include="XML\ErrorLog.xml" />
     <None Include="XML\Menus.xml">
