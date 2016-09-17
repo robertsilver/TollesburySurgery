@@ -138,6 +138,7 @@
     <Content Include="HTML\Travel_Health.htm" />
     <Content Include="HTML\WalkInCentres.htm" />
     <Content Include="Images\BloodTests.jpg" />
+    <Content Include="Images\PublicEngagement.png" />
     <Content Include="Images\TestResults.jpg" />
     <Content Include="Images\XRays.jpg" />
     <Content Include="WebMethods.aspx" />
