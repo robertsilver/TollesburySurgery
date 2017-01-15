@@ -68,6 +68,7 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\Upload.aspx" />
     <Content Include="Code\FriendsAndFamily.aspx" />
+    <Content Include="Content\FlexSliderConverted.css" />
     <Content Include="Content\Images\confidentiality.jpg" />
     <Content Include="Content\Images\content-bg.jpg" />
     <Content Include="Content\Images\content.jpg" />
@@ -75,6 +76,8 @@
     <Content Include="Content\Images\footer.jpg" />
     <Content Include="Content\Images\header.gif" />
     <Content Include="Content\Images\iconCancelColour_24x24.png" />
+    <Content Include="Content\Images\Icons\iconFeaturedBubbleActiveWhite_16x16.png" />
+    <Content Include="Content\Images\Icons\iconFeaturedBubbleWhite_16x16.png" />
     <Content Include="Content\Images\large-loader-strip.gif" />
     <Content Include="Content\Images\nav-bg.jpg" />
     <Content Include="Content\Images\navlist-left.jpg" />
@@ -141,6 +144,7 @@
     <Content Include="Images\PublicEngagement.png" />
     <Content Include="Images\TestResults.jpg" />
     <Content Include="Images\XRays.jpg" />
+    <Content Include="Scripts\Lib\jquery.flexslider-min.js" />
     <Content Include="WebMethods.aspx" />
     <Content Include="Config\app_dev.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -157,9 +161,6 @@
     <Content Include="Scripts\ts.js" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.4.1.js" />
-    <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>

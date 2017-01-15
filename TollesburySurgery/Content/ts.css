@@ -275,3 +275,57 @@
 {
 	color: #FFF !important; /*White*/
 }
+
+/* Carousel start */
+.carousel {
+    height: 200px;
+    overflow: hidden;
+    margin-left: 0;
+    background-color: #90D9FE;
+    color: #000;
+    padding: 10px;
+}
+
+    .carousel .title-section {
+        color: #000;
+        font-weight: bold;
+        font-size: 160%;
+        font-style: italic;
+    }
+
+    .carousel .content {
+        line-height: 150%;
+        text-align: justify;
+        font-size: 105%;
+        overflow: hidden;
+    }
+
+    .carousel .slick-dots {
+        text-align: center;
+        position: relative;
+        top: -10px;
+        left: -40px;
+    }
+
+        .carousel .slick-dots li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+            .carousel .slick-dots li .pager-item {
+                background-image: url('/Content/Images/Icons/iconFeaturedBubbleWhite_16x16.png');
+                width: 16px;
+                height: 16px;
+            }
+
+        .carousel .slick-dots .slick-active .pager-item {
+            background-image: url('/Content/Images/Icons/iconFeaturedBubbleActiveWhite_16x16.png');
+            width: 16px;
+            height: 16px;
+        }
+
+    .carousel .slick-track:before, .slick-track:after {
+        display: none;
+        content: '';
+    }
+/* Carousel end */
