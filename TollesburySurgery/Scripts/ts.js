@@ -286,6 +286,20 @@
                     $('div.main-content').html('');
                     $('div.main-content').html($html);
                     document.title = data.d.Title;
+
+                    $(".carousel").slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true,
+                        speed: 1500,
+                        autoplay: true,
+                        autoplaySpeed: 10000,
+                        draggable: false,
+                        arrows: false,
+                        customPaging: function (a, b) {
+                            return '<div class="pager-item"></div>';
+                        }
+                    });
                 }, 500);
             },
             error: function (e) {
