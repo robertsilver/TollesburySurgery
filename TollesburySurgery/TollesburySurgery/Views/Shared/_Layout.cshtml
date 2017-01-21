@@ -10,7 +10,7 @@
     @Styles.Render("~/Theme/css")
     @Styles.Render("~/Skin/css")
     @Styles.Render("~/Custom/css")
-        @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/modernizr")
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="~/Content/Images/favicon.ico" type="image/x-icon" />
@@ -117,13 +117,78 @@
         <div class="container body-content">
             @RenderBody()
             <hr />
-            <footer>
-                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <footer id="footer" class="m-none">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h4 class="mb-xlg">Location</h4>
+                            <p>
+                                Porto Medical<br>
+                                123 Porto Blvd, Suite 100<br>
+                                New York, NY<br>
+                                Phone : 123-456-7890
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <h4 class="mb-xlg">Opening Hours</h4>
+                            <div class="info custom-info">
+                                <span>Mon-Fri</span>
+                                <span>8:30 am to 5:00 pm</span>
+                            </div>
+                            <div class="info custom-info">
+                                <span>Saturday</span>
+                                <span>9:30 am to 1:00 pm</span>
+                            </div>
+                            <div class="info custom-info">
+                                <span>Sunday</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-md-offset-1">
+                            <div class="contact-details">
+                                <h4 class="mb-xlg">Emergency Cases</h4>
+                                <a class="text-decoration-none" href="tel:1234567890">
+                                    <strong class="font-weight-light">(800)123-4567</strong>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <h4 class="mb-xlg">Social Media</h4>
+                            <ul class="social-icons">
+                                <li class="social-icons-facebook">
+                                    <a href="http://www.facebook.com/" target="_blank" title="Facebook">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="social-icons-twitter">
+                                    <a href="http://www.twitter.com/" target="_blank" title="Twitter">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="social-icons-linkedin">
+                                    <a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright pt-md pb-md">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 center m-none">
+                                <p>© Copyright 2016. All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </footer>
         </div>
     </div>
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryRemaining")
+    @Scripts.Render("~/bundles/Lib")
     @RenderSection("scripts", required: false)
 </body>
 </html>

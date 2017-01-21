@@ -9,19 +9,31 @@ namespace TollesburySurgery
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/Lib/jquery-{version}.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+            bundles.Add(new ScriptBundle("~/bundles/jqueryRemaining").Include(
+                        "~/Scripts/Lib/jquery.validate*",
+                        "~/Scripts/Lib/jquery-cookie.min",
+                        "~/Scripts/Lib/jquery.appear.min",
+                        "~/Scripts/Lib/jquery.easing",
+                        "~/Scripts/Lib/jquery.easy-pie-chart.min",
+                        "~/Scripts/Lib/jquery.gmap.min",
+                        "~/Scripts/Lib/jquery.isotope.min",
+                        "~/Scripts/Lib/jquery.lazyload.min",
+                        "~/Scripts/Lib/jquery.magnific-popup.min"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+                        "~/Scripts/Lib/modernizr-*"));
 
-            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+            bundles.Add(new ScriptBundle("~/bundles/Lib").Include(
+                        "~/Scripts/Lib/bootstrap.js",
+                        "~/Scripts/Lib/respond.js",
+                        "~/Scripts/Lib/common.min.js",
+                        "~/Scripts/Lib/owl.carousel.min.js",
+                        "~/Scripts/Lib/theme.js",
+                        "~/Scripts/Lib/vide.min.js"));
 
             //bundles.Add(new StyleBundle("~/Content/css").Include(
             //          "~/Content/bootstrap.css",
