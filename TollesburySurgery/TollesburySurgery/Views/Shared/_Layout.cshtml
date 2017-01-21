@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tollesbury Surgery</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/VendorCss/css")
+    @Styles.Render("~/Theme/css")
+    @Styles.Render("~/Skin/css")
+    @Styles.Render("~/Custom/css")
+        @Scripts.Render("~/bundles/modernizr")
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="~/Content/Images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="~/Content/Images/apple-touch-icon.png">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Web Fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="body">
+        <header id="header" class="header-narrow" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 35, "stickySetTop": "-35px", "stickyChangeLogo": false}'>
+            <div class="header-body">
+                <div class="header-top header-top header-top-style-3 header-top-custom">
+                    <div class="container">
+                        <nav class="header-nav-top pull-right">
+                            <ul class="nav nav-pills">
+                                <li class="hidden-xs">
+                                    <span class="ws-nowrap"><i class="icon-location-pin icons"></i> 1234 Street Name, City Name</span>
+                                </li>
+                                <li class="hidden-xs">
+                                    <span class="ws-nowrap"><i class="icon-envelope-open icons"></i> <a class="text-decoration-none" href="mailto:mail@example.com">mail@example.com</a></span>
+                                </li>
+                                <li>
+                                    <span class="ws-nowrap"><i class="icon-call-out icons"></i> (800) 123-4567</span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="header-container container">
+                    <div class="header-row">
+                        <div class="header-column">
+                            <div class="header-logo">
+                                <a href="demo-medical.html">
+                                    <img alt="Tollesbury Surgery logo" width="143" height="40" src="~/Content/Images/TS-logo.png">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-column">
+                            <div class="header-row">
+                                <div class="header-nav pt-xs">
+                                    <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
+                                        <i class="fa fa-bars"></i>
+                                    </button>
+                                    <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+                                        <nav>
+                                            <ul class="nav nav-pills" id="mainNav">
+                                                <li class="activedropdown-full-color dropdown-secondary">
+                                                    <a href="demo-medical.html">
+                                                        Home
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-full-color dropdown-secondary">
+                                                    <a href="demo-medical-about-us.html">
+                                                        About Us
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown dropdown-full-color dropdown-secondary">
+                                                    <a class="dropdown-toggle" href="demo-medical-departments.html">
+                                                        Departments
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="demo-medical-departments-detail.html">Cardiology</a></li>
+                                                        <li><a href="demo-medical-departments-detail.html">Gastroenterology</a></li>
+                                                        <li><a href="demo-medical-departments-detail.html">Pulmonology</a></li>
+                                                        <li><a href="demo-medical-departments-detail.html">Dental</a></li>
+                                                        <li><a href="demo-medical-departments-detail.html">Gynecology</a></li>
+                                                        <li><a href="demo-medical-departments-detail.html">Hepatology</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="dropdown-full-color dropdown-secondary">
+                                                    <a href="demo-medical-doctors.html">
+                                                        Doctors
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-full-color dropdown-secondary">
+                                                    <a href="demo-medical-resources.html">
+                                                        Resources
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-full-color dropdown-secondary">
+                                                    <a href="demo-medical-insurance.html">
+                                                        Insurance
+                                                    </a>
+                                                </li>
+                                                <li class="dropdown-full-color dropdown-secondary">
+                                                    <a href="demo-medical-contact.html">
+                                                        Contact
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
+            <footer>
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
