@@ -278,7 +278,7 @@
 
 /* Carousel start */
 .carousel {
-    height: 200px;
+    height: 250px;
     overflow: hidden;
     margin-left: 0;
     background-color: #90D9FE;
@@ -298,6 +298,14 @@
         text-align: justify;
         font-size: 105%;
         overflow: hidden;
+    }
+
+    .carousel .content .text {
+        margin-bottom: 10px;
+    }
+
+     .carousel .content .text:last-child {
+        margin-bottom: 0;
     }
 
     .carousel .slick-dots {
