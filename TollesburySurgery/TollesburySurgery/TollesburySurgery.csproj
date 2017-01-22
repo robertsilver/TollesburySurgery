@@ -172,6 +172,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\custom.css" />
+    <Content Include="Content\demo-medical.css" />
     <Content Include="Content\Fonts\fontawesome-webfont.svg" />
     <Content Include="Content\Fonts\Simple-Line-Icons.svg" />
     <Content Include="Content\Images\TS-logo.png" />
@@ -182,12 +183,12 @@
     <Content Include="Content\VendorCss\font-awesome.min.css" />
     <Content Include="Content\Images\apple-touch-icon.png" />
     <Content Include="Content\Images\favicon.ico" />
-    <Content Include="Content\VendorCss\layers.css" />
     <Content Include="Content\VendorCss\magnific-popup.min.css" />
-    <Content Include="Content\VendorCss\navigation.css" />
     <Content Include="Content\VendorCss\owl.carousel.min.css" />
     <Content Include="Content\VendorCss\owl.theme.default.min.css" />
-    <Content Include="Content\VendorCss\settings.css" />
+    <Content Include="Content\VendorCss\rs-plugin\layers.css" />
+    <Content Include="Content\VendorCss\rs-plugin\navigation.css" />
+    <Content Include="Content\VendorCss\rs-plugin\settings.css" />
     <Content Include="Content\VendorCss\simple-line-icons.min.css" />
     <Content Include="Content\theme-elements.css" />
     <Content Include="Content\theme.css" />
@@ -195,8 +196,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\custom.js" />
-    <Content Include="Scripts\demo-medical.js" />
+    <Content Include="Scripts\App\custom.js" />
+    <Content Include="Scripts\App\demo-medical.js" />
     <Content Include="Scripts\Lib\bootstrap.js" />
     <Content Include="Scripts\Lib\bootstrap.min.js" />
     <Content Include="Content\Fonts\Simple-Line-Icons.eot" />
@@ -221,6 +222,8 @@
     <Content Include="Scripts\Lib\jquery.isotope.min.js" />
     <Content Include="Scripts\Lib\jquery.lazyload.min.js" />
     <Content Include="Scripts\Lib\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\Lib\jquery.themepunch.revolution.min.js" />
+    <Content Include="Scripts\Lib\jquery.themepunch.tools.min.js" />
     <Content Include="Scripts\Lib\jquery.validate.js" />
     <Content Include="Scripts\Lib\jquery.validate.min.js" />
     <Content Include="Scripts\Lib\jquery.validate.unobtrusive.js" />
@@ -230,10 +233,11 @@
     <Content Include="Scripts\Lib\owl.carousel.min.js" />
     <Content Include="Scripts\Lib\respond.js" />
     <Content Include="Scripts\Lib\respond.min.js" />
-    <Content Include="Scripts\Lib\theme.js" />
+    <Content Include="Scripts\App\theme.js" />
     <Content Include="Scripts\Lib\vide.min.js" />
+    <Content Include="Scripts\Lib\view.contact.js" />
     <Content Include="Scripts\Lib\_references.js" />
-    <Content Include="Scripts\theme.init.js" />
+    <Content Include="Scripts\App\theme.init.js" />
     <None Include="Scripts\_references.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
