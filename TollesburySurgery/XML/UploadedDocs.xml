@@ -1,5 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UploadedDocs>
+  <Document ID="28" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>PPG minutes Nov 2016</DocumentName>
+    <AssociatedFileName>PPG minutes Nov 2016.docx</AssociatedFileName>
+  </Document>
+  <Document ID="27" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>PPG minutes Sept 2016</DocumentName>
+    <AssociatedFileName>PPG minutes Sept 2016.docx</AssociatedFileName>
+  </Document>
+  <Document ID="26" WhichPartOfWebSite="PatientParticipation">
+    <DocumentVisible>true</DocumentVisible>
+    <DocumentFileType>Word</DocumentFileType>
+    <DocumentName>PPG minutes May 2016</DocumentName>
+    <AssociatedFileName>PPG minutes May 2016.docx</AssociatedFileName>
+  </Document>
   <Document ID="25" WhichPartOfWebSite="PatientParticipation">
     <DocumentVisible>true</DocumentVisible>
     <DocumentFileType>Excel</DocumentFileType>
