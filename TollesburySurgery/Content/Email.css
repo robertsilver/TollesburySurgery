@@ -1,0 +1,27 @@
+﻿.foo {
+}
+
+.Normal-Size-Font
+{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.Small-Size-Font
+{
+    font-size: 0.80em;
+    font-weight: bold;
+}
+
+td
+{
+    /* If the td is 100%, then the text in the telephone 
+    section is too long*/
+    width: 50%;
+}
+
+.Mandatory-Field
+{
+    color: Red;
+    font-size: 1.25em;
+}
