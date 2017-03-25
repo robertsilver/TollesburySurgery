@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Web.Security;
+using TollesburySurgery;
 using TollesburySurgery.Generic;
 using TSDomain;
 
@@ -17,14 +18,14 @@ namespace TS.Account
                 if (CreateNewPwd(out newPwd, out userId))
                 {
                     Core.SetForgottenPwdFlagToYes(UserName.Text);
-                    int portNumber = AppSettings.AppSetting("Email.EmailPort") == string.Empty ? 0 : Convert.ToInt32(AppSettings.AppSetting("Email.EmailPort"));
+                    int portNumber = Helper.AppSetting("Email.EmailPort") == string.Empty ? 0 : Convert.ToInt32(Helper.AppSetting("Email.EmailPort"));
                     Email em = new Email(
-                        AppSettings.AppSetting("FromEmailAddress"), 
-                        AppSettings.AppSetting("Email.EmailServer"),
+                        Helper.AppSetting("FromEmailAddress"), 
+                        Helper.AppSetting("Email.EmailServer"),
                         portNumber, 
-                        AppSettings.AppSetting("Email.BCCEmailAddress"),
-                        Convert.ToBoolean(AppSettings.AppSetting("Email.AreWeOnLiveServer")));
-                    string emailBody = File.ReadAllText(AppSettings.AppSetting("EmailText"));
+                        Helper.AppSetting("Email.BCCEmailAddress"),
+                        Convert.ToBoolean(Helper.AppSetting("Email.AreWeOnLiveServer")));
+                    string emailBody = File.ReadAllText(Helper.AppSetting("EmailText"));
                     emailBody = string.Format(emailBody, newPwd, "2");
                     em.EmailCustomer(emailBody, "robsilver@umail.net" /*UserName.Text*/, string.Empty, "New password");
                     lblError.Text = "We have sent you an email to " + UserName.Text +
@@ -36,9 +37,9 @@ namespace TS.Account
                 return;
             }
 
-            string usernameFile = AppSettings.AppSetting("Content");
-            string pwdFile = AppSettings.AppSetting("Footer");
-            string images = AppSettings.AppSetting("Images");
+            string usernameFile = Helper.AppSetting("Content");
+            string pwdFile = Helper.AppSetting("Footer");
+            string images = Helper.AppSetting("Images");
             string usernameText = File.ReadAllText(images + @"\" + usernameFile);
             string pwdText = File.ReadAllText(images + @"\" + pwdFile);
 

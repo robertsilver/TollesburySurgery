@@ -1,4 +1,5 @@
 ﻿using System;
+using TollesburySurgery;
 using TollesburySurgery.Generic;
 using TSDomain;
 
@@ -49,8 +50,8 @@ namespace TS.Account
             else
                 // User's logged in, but we need to get their Id for the save object.
                 save.GetUserId();
-
-            string images = AppSettings.AppSetting("Images");
+            
+            string images = Helper.AppSetting("Images");
             string pwdFile = AppSettings.AppSetting("Footer");
             bool successfulSave = save.SaveNewPwd(images + @"\" + pwdFile, Core.Encrypt(CurrentPassword.Text),
                                                   Core.Encrypt(ConfirmNewPassword.Text));
