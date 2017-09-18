@@ -147,7 +147,7 @@
     <Content Include="Images\XRays.jpg" />
     <Content Include="Scripts\Lib\jquery.flexslider-min.js" />
     <Content Include="WebMethods.aspx" />
-    <Content Include="Config\app_dev.config">
+    <Content Include="Config\app_work.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Config\app_live.config">
