@@ -25,6 +25,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -101,6 +102,7 @@
     <Content Include="HTML\AccountableGp.html" />
     <Content Include="HTML\Answers.htm" />
     <Content Include="HTML\CancelAppointment.htm" />
+    <Content Include="HTML\FluClinic.htm" />
     <Content Include="HTML\FriendsAndFamilyTest.htm" />
     <Content Include="HTML\GpEarnings.html" />
     <Content Include="HTML\Health_Childrens.htm" />

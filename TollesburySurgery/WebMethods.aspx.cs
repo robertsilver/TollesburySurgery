@@ -86,6 +86,10 @@ namespace TollesburySurgery
                     fileName += AppSettings.AppSetting("Home");
                     title = websiteName + "Home";
                     break;
+                case "1.1.0":
+                    fileName += AppSettings.AppSetting("FluClinic");
+                    title = websiteName + "Flu Clinic";
+                    break;
                 case "2.0.0":
                     fileName += AppSettings.AppSetting("GeneralInformation");
                     title = websiteName + "General Information";

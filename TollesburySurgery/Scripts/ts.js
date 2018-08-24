@@ -162,7 +162,7 @@
             getAndDisplayMenuContent(dataId);
         });
 
-        $('.left-menu li.menu-header[data-header="Yes"]').click(function () {
+        $('.left-menu li.menu-header[data-header="Yes"]').click(function (event, asd) {
             hideAllMenusThatDoNotBelongToClickedValue(this);
             showAllMenusThatDoBelongToClickedValue(this);
         });
