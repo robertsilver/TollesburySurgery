@@ -5,3 +5,4 @@ bin
 *.ide-wal
 *.ide
 TollesburySurgery/ts.csproj.user
+.vs/ts/v15/.suo
