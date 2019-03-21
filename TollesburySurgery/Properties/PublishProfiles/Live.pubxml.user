@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Projects\Publish\TollesburySurgery</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="About.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Account/ChangePasswordSuccess.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Account/Register.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Account/Upload.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Assets/JSON/Carousel.json">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="bin/Config/app_live.config">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="bin/Config/app_work.config">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="bin/TollesburySurgery.dll">
+      <publishTime>03/21/2019 20:41:57</publishTime>
+    </File>
+    <File Include="bin/TollesburySurgery.pdb">
+      <publishTime>03/21/2019 20:41:57</publishTime>
+    </File>
+    <File Include="bin/TSDomain.dll">
+      <publishTime>03/21/2019 20:41:57</publishTime>
+    </File>
+    <File Include="bin/TSDomain.pdb">
+      <publishTime>03/21/2019 20:41:57</publishTime>
+    </File>
+    <File Include="Code/Files.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Code/FriendsAndFamily.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Config/app_home_machine.config">
+      <publishTime>10/31/2018 20:14:34</publishTime>
+    </File>
+    <File Include="Config/app_live.config">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="Config/app_work.config">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="Content/FlexSliderConverted.css">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/confidentiality.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/content-bg.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/content.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/Excel_Image.png">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/footer.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/header.gif">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/iconCancelColour_24x24.png">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/Icons/iconFeaturedBubbleActiveWhite_16x16.png">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/Icons/iconFeaturedBubbleWhite_16x16.png">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/large-loader-strip.gif">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/nav-bg.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/navlist-left.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/nhs_choices.gif">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/pals.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/PDF_Image.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/PPG-Meeting.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/Images/Word_Image.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Content/ts.css">
+      <publishTime>03/19/2019 20:45:12</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Emails/EmailText.txt">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/About.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/About_HowToFindUs.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/About_MeetTheTeam.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/About_PALS.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/About_PatientRepGrp.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/About_PracticeArea.htm">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="HTML/About_PracticePolicies.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/AccountableGp.html">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Answers.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/CancelAppointment.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Clinics.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Complaints.htm">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="HTML/ContactUs.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Dispensing.htm">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="HTML/Enquiries.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/FAQ.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/FAQ_Benefits.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/FAQ_Flu.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/FAQ_HealthyLiving.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/FAQ_RegisterWithUs.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/FAQ_TreatingYourself.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/FluClinic.htm">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="HTML/FriendsAndFamilyTest.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/GeneralInformation.htm">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="HTML/GpEarnings.html">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Health_Childrens.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Home.htm">
+      <publishTime>03/19/2019 20:44:59</publishTime>
+    </File>
+    <File Include="HTML/Home_CQC.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Home_TestResults.htm">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="HTML/NamedGp.html">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="HTML/Online.html">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Online_Appointments.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Online_Book.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Online_Cancellations.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Online_MedicalRecords.html">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Online_Prescriptions.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Online_Registration.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/OutOfHours.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/PatientForms.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/RepeatPrescriptions.htm">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="HTML/Services.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Services_CarPark.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Services_ChaperonePolicy.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Services_HomeVisits.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Services_MinorSurgery.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Services_NonNHS.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Services_Pregnancy.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Services_PreHospital.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Services_Results.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="HTML/Travel_Health.htm">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="HTML/WalkInCentres.htm">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Images/BloodTests.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Images/PublicEngagement.png">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Images/TestResults.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Images/XRays.jpg">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Scripts/Lib/jquery.flexslider-min.js">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Scripts/ts.js">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>10/31/2018 20:13:45</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/21/2019 20:41:58</publishTime>
+    </File>
+    <File Include="WebMethods.aspx">
+      <publishTime>10/31/2018 20:05:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
