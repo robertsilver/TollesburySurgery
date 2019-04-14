@@ -2,7 +2,7 @@
 using System.Text;
 using TSDomain;
 
-namespace TollesburySurgery.Code
+namespace TS.Code
 {
     public partial class FriendsAndFamily : System.Web.UI.Page
     {

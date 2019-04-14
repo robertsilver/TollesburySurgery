@@ -1,5 +1,26 @@
 ﻿ts = function () {
     //#region Public functions
+    function showSurgeryClosingDates() {
+        $.ajax({
+            type: 'POST',
+            url: '/WebMethods.aspx/GetSurgeryClosingDates',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                if (data.d !== '') {
+                    document.getElementsByClassName("surgery-closed")[0].innerHTML = data.d;
+                    $('.surgery-closed').show();
+                } else {
+                    ;
+                }
+            },
+            error: function (e) {
+                var error = e;
+                var temp = '';
+            }
+        });
+    }
+
     function setupCheckCurrentPasswordOnChange() {
         /// <summary>Local function? No
         /// <para>
@@ -21,7 +42,7 @@
                 contentType: "application/json; charset=utf-8",
                 dataType: "json",
                 success: function (data) {
-                    if (data.d == true) {
+                    if (data.d === true) {
                         $('#CurrentPassword').removeClass('error-red-border');
                         $('#CurrentPassword').addClass('passwordEntry');
                         $('#lblError').hide();
@@ -52,7 +73,7 @@
         /// </para>
         /// </summary>
         $('#ConfirmNewPassword').change(function () {
-            if ($('#NewPassword').val() == $(this).val()) {
+            if ($('#NewPassword').val() !== $(this).val()) {
                 $('#NewPassword').removeClass('error-red-border');
                 $('#NewPassword').addClass('passwordEntry');
                 $('#ConfirmNewPassword').removeClass('error-red-border');
@@ -71,7 +92,7 @@
 
     function test() {
         $('#ChangePasswordPushButton').click(function (e) {
-            if ($('#NewPassword').val() != $('#ConfirmNewPassword').val()) {
+            if ($('#NewPassword').val() !== $('#ConfirmNewPassword').val()) {
                 e.preventDefault();
             } else
                 return true;
@@ -383,7 +404,6 @@
 
         }
     }; // end show function
-    
 
 
     var urlParams = {};
@@ -406,7 +426,8 @@
         setupForgottenPassword: setupForgottenPassword,
         setupLoginUserNameOnChange: setupLoginUserNameOnChange,
         setupMasterPage: setupMasterPage,
-        test: test
+        test: test,
+        showSurgeryClosingDates: showSurgeryClosingDates
     }
     //#endregion Setup methods
 } ();

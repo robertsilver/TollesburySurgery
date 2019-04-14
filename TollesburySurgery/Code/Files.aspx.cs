@@ -4,7 +4,7 @@ using System.Linq;
 using System.Xml.Linq;
 using TSDomain;
 
-namespace TollesburySurgery
+namespace TS
 {
     public partial class Files : System.Web.UI.Page
     {
@@ -29,7 +29,7 @@ namespace TollesburySurgery
                 return;
             }
 
-            XDocument xmlDoc = XDocument.Load(AppSettings.AppSetting("UploadedDocuments"));
+            System.Xml.Linq.XDocument xmlDoc = System.Xml.Linq.XDocument.Load(AppSettings.AppSetting("UploadedDocuments"));
             var fileDetails = from w in xmlDoc.Elements("UploadedDocs").Elements("Document")
                         where (string)w.Attribute("WhichPartOfWebSite") == fileType &&
                         w.Element("DocumentVisible").Value == "true"

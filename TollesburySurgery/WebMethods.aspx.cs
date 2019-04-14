@@ -3,7 +3,7 @@ using System.IO;
 using System.Web.Services;
 using TSDomain;
 
-namespace TollesburySurgery
+namespace TS
 {
     public partial class WebMethods : System.Web.UI.Page
     {
@@ -30,6 +30,13 @@ namespace TollesburySurgery
                 return checkLogin.GetUserId();
 
             return -1;
+        }
+
+        [WebMethod]
+        public static string GetSurgeryClosingDates()
+        {
+            var url = Helper.AppSetting("JSON.SurgeryClosed");
+            return TollesburySurgery.Business.SurgeryClosed.GetAll(url);
         }
 
         [WebMethod]
@@ -64,10 +71,10 @@ namespace TollesburySurgery
 
             string encryptedPwd = Core.Encrypt(pwd);
             checkLogin = new LoginCheck(string.Empty, encryptedPwd, usernameText, pwdText)
-                             {
-                                 // Need the user Id when checking the password.
-                                 UserId = (("undefined" != userId) ? Convert.ToInt32(userId) : uId)
-                             };
+            {
+                // Need the user Id when checking the password.
+                UserId = (("undefined" != userId) ? Convert.ToInt32(userId) : uId)
+            };
 
             return (LoginCheck.LoginResult.Found == checkLogin.IsPwdValid);
         }

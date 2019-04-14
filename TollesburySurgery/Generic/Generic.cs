@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using TSDomain;
 
-namespace TollesburySurgery.Generic
+namespace TS.Generic
 {
     public class Generic
     {

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TollesburySurgery.Code {
+namespace TS.Code {
     
     
     public partial class FriendsAndFamily {

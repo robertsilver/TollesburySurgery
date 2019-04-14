@@ -3,7 +3,7 @@ using System;
 using System.Configuration;
 using System.IO;
 
-namespace TollesburySurgery
+namespace TS
 {
     public class Helper
     {

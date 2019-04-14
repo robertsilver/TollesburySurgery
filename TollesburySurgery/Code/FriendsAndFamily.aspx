@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="FriendsAndFamily.aspx.cs" Inherits="TollesburySurgery.Code.FriendsAndFamily" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="FriendsAndFamily.aspx.cs" Inherits="TS.Code.FriendsAndFamily" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
       <script type="text/javascript">

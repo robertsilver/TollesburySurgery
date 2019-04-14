@@ -210,27 +210,14 @@
 </article>-->
 
 
-<div style="width: 75%; margin: 0px auto;">
-    <table class="datatable" cellspacing="2" cellpadding="0" border="0">
-        <tbody>
-            <tr>
-                <td bgcolor="#FF0000">
-                    <table width="450" cellspacing="1" cellpadding="6" border="0">
-                        <tbody>
-                            <tr>
-                                <td valign="top" bgcolor="#FFFFFF" nowrap="">
-                                    <strong>Monday to Friday</strong>
-                                </td>
-                                <td valign="top" bgcolor="#FFFFFF" nowrap="" align="left">
-                                    <strong>8.00am - 6.30pm</strong>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<div class="opening-times">
+    <div class="monday-friday cf">
+        <div class="days">Monday to Friday</div>
+        <div class="times">8.00am - 6.30pm</div>
+    </div>
+</div>
+
+<div class="surgery-closed" style="display: none;">
 </div>
 
 <div class="lists">
@@ -240,7 +227,7 @@
         <li class="staff">G.P.:</li>
         <li class="staff">Nurse Practitioner:</li>
         <li class="staff">Practice Nurses: </li>
-        <li class="staff">Healthcare Assistant:</li>        
+        <li class="staff">Healthcare Assistant:</li>
         <li class="staff">Practice Manager: </li>
         <li class="staff">Practice opening hours: </li>
         <li class="staff">&nbsp;</li>
@@ -297,3 +284,9 @@
     consultation with the practice nurse.
 </span>
 <span>Disabled access is available at Tollesbury Surgery</span>
+
+<script type="text/javascript">
+    $(function () {
+        ts.showSurgeryClosingDates();
+    });
+</script>
