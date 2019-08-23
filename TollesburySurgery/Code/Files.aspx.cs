@@ -4,7 +4,7 @@ using System.Linq;
 using System.Xml.Linq;
 using TSDomain;
 
-namespace TS
+namespace TollesburySurgery.Code
 {
     public partial class Files : System.Web.UI.Page
     {
