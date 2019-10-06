@@ -3,9 +3,9 @@
   <MenuItems>
     <Menu ID="1.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Home</Menu>
   </MenuItems>
-  <MenuItems>
+  <!--<MenuItems>
     <Menu ID="1.1.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">Flu Clinic 2018</Menu>
-  </MenuItems>
+  </MenuItems>-->
   <MenuItems>
     <Menu ID="2.0.0" ParentId="0" Header="Yes" DefaultMenu="Yes" ShowMenu="Yes">General Information</Menu>
   </MenuItems>
