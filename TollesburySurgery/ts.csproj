@@ -84,6 +84,7 @@
     <Content Include="Content\Images\PPG-Meeting.jpg" />
     <Content Include="Content\Images\Word_Image.jpg" />
     <Content Include="Content\ts.css" />
+    <Content Include="Content\_bootstrap.css" />
     <Content Include="Default.aspx" />
     <Content Include="Emails\EmailText.txt" />
     <Content Include="Code\Files.aspx" />
@@ -143,6 +144,7 @@
     <Content Include="Images\TestResults.jpg" />
     <Content Include="Images\XRays.jpg" />
     <Content Include="Scripts\Lib\jquery.flexslider-min.js" />
+    <Content Include="Scripts\modal.js" />
     <Content Include="WebMethods.aspx" />
     <Content Include="Config\app_work.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

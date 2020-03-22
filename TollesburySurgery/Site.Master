@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css" />
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
     <link href="Content/FlexSliderConverted.css" rel="stylesheet" />
+    <link href="Content/_bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/modal.js"></script>
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>

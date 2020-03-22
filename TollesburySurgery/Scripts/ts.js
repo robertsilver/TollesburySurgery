@@ -21,6 +21,11 @@
         });
     }
 
+    function showCoronavirusPopup() {
+        var popup = $('#modalCoronavirus');
+        popup.modal('show');
+    }
+
     function setupCheckCurrentPasswordOnChange() {
         /// <summary>Local function? No
         /// <para>
@@ -427,7 +432,8 @@
         setupLoginUserNameOnChange: setupLoginUserNameOnChange,
         setupMasterPage: setupMasterPage,
         test: test,
-        showSurgeryClosingDates: showSurgeryClosingDates
+        showSurgeryClosingDates: showSurgeryClosingDates,
+        showCoronavirusPopup: showCoronavirusPopup
     }
     //#endregion Setup methods
 } ();
