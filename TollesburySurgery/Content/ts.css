@@ -125,7 +125,7 @@
 }
 
 
-    .opening-times .monday-friday {       
+    .opening-times .monday-friday {
         font-weight: bold;
         background-color: #ededed;
         padding: 15px;
@@ -278,6 +278,30 @@
 .Theme0 {
     color: #FFF !important; /*White*/
 }
+
+#covid-19-information {
+    text-align: center;
+    margin: 50px 0 10px 0;
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#covid-19-more-information {
+    margin-bottom: 30px;
+    border: solid black 1px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+    #covid-19-more-information .close-panel {
+        text-align: right;
+        color: red;
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 1;
+    }
 
 /* Carousel start */
 .carousel {

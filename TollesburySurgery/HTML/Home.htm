@@ -267,6 +267,31 @@
         4th October 2017, 4.30pm until 6.30pm no appointment necessary, these will be walk in sessions.</p>
 </article>-->
 
+<div id="covid-19-information" class="closed">
+    Click here to view more information about Covid-19
+</div>
+
+    <article id="covid-19-more-information" style="display: none">
+        <section style="margin-bottom: 15px;">
+            We understand this is a worrying time for everyone, and there may be particular concerns for people who support someone living with dementia. The NHS in your area has been working with Essex County Council and other local organisations, including community and voluntary groups, to identify and reach out to people like you - people living with dementia and people who care for them.
+        </section>
+        <section style="margin-bottom: 15px;">By making welfare calls to you, we can find out more about your needs and help people to avoid reaching the point of crisis. The initial contact will come from the Alzheimer's Society through their Dementia Support Workers (who are professionally trained).</section>
+        <section style="margin-bottom: 15px;">
+            They will ask how you are doing and discuss possible worries you have, for example:
+            <ul>
+                <li>The spread of the novel coronavirus (COVID-19) and how you can reduce the risk to you and others</li>
+                <li>Getting access to food and medicine</li>
+                <li>Seeking advice and help from your GP or pharmacy</li>
+                <li>What happens if you or the person you support becomes unwell</li>
+                <li>Making contact and staying in touch with family and friends</li>
+                <li>Activities that you can do with your loved ones to take your minds off things</li>
+            </ul>
+        </section>
+        <section style="margin-bottom: 15px;">These calls will help the Dementia Support Workers to offer appropriate support or give you contact details of other organisations who can help you with your particular needs. We want you to know that the NHS and our partners are here for you and will help you get the support you need.</section>
+        <section style="margin-bottom: 15px;">If you need more information or are worried about being contacted, especially in light of possible telephone scams, we are happy to clarify any doubts that you may have. You can contact us on <a href="meccg.dementiacovidcarersupport@nhs.net">meccg.dementiacovidcarersupport@nhs.net</a></section>
+        <section>If you or someone you care for is worried about novel coronavirus and needs advice or support, please call the <strong>Dementia Connect support line on <a href="tel:01245 260911">01245 260911</a></strong> (Mon-Fri, 8.30am to 5.30pm).</section>
+        <section class="close-panel">Close</section>
+    </article>
 
 <div class="opening-times">
     <div class="monday-friday cf">
@@ -364,7 +389,7 @@
             </div>
             <div style="margin: 15px">
                 The new advice issued by the Chief Medical Officer is as follows:
-            
+
                 <ul>
                     <li>
                         Stay at home for 7 days if you have either:
@@ -412,4 +437,53 @@
         ts.showSurgeryClosingDates();
         ts.showCoronavirusPopup();
     });
+
+    //$('#covid-19-information.closed').off('click').on('click', function () {
+    //    $('#covid-19-more-information').slideDown();
+        
+    //    var element = document.getElementById("covid-19-information");
+    //    element.classList.remove("closed");
+    //    element.classList.add("open");
+    //});
+
+    //$('#covid-19-information').on("click", '.open', function () {
+    //    debugger;
+
+    //    $('#covid-19-more-information').slideUp();
+
+    //    var element = document.getElementById("covid-19-information");
+    //    element.classList.remove("open");
+    //});
+
+    //$('#covid-19-more-information .close-panel').off('click').on('click', function () {
+    //    $('#covid-19-more-information').slideUp();
+    //});
+
+    function hasClass(elem, className) {
+        return elem.className.split(' ').indexOf(className) > -1;
+    }
+
+    document.addEventListener('click', function (e) {
+        if (hasClass(e.target, 'closed')) {
+            $('#covid-19-more-information').slideDown();
+
+            var element = document.getElementById("covid-19-information");
+            element.classList.remove("closed");
+            element.classList.add("open");
+
+        } else if (hasClass(e.target, 'open')) {
+            $('#covid-19-more-information').slideUp();
+
+            var element = document.getElementById("covid-19-information");
+            element.classList.remove("open");
+            element.classList.add("closed");
+        }
+        else if (hasClass(e.target, 'close-panel')) {
+            $('#covid-19-more-information').slideUp();
+
+            var element = document.getElementById("covid-19-information");
+            element.classList.remove("open");
+            element.classList.add("closed");
+        }
+    }, false);
 </script>
