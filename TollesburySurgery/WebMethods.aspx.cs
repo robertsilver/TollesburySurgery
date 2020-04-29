@@ -101,6 +101,10 @@ namespace TS
                     fileName += AppSettings.AppSetting("GeneralInformation");
                     title = websiteName + "General Information";
                     break;
+                case "3.0.0":
+                    fileName += AppSettings.AppSetting("Online");
+                    title = websiteName + "Online";
+                    break;
                 case "3.0.0.0":
                     fileName += AppSettings.AppSetting("OnlinePrescriptions");
                     title = websiteName + "Online Prescriptions";
